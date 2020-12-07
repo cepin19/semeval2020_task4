@@ -1,0 +1,60 @@
+02/24/2020 17:29:03 - WARNING - __main__ -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, 16-bits training: False
+02/24/2020 17:29:04 - INFO - transformers.configuration_utils -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-config.json from cache at /home/ijon/.cache/torch/transformers/b3eed512e24335a76694282193217608ead013caa55330de3ff236d1f5695e6c.58c1d03602d9707494c5ff902d07817fd2b4ed6a589b2b062364aed4ae3d3765
+02/24/2020 17:29:04 - INFO - transformers.configuration_utils -   Model config {
+  "architectures": [
+    "AlbertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0,
+  "down_scale_factor": 1,
+  "embedding_size": 128,
+  "finetuning_task": "task4a",
+  "gap_size": 0,
+  "hidden_act": "gelu_new",
+  "hidden_dropout_prob": 0,
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "inner_group_num": 1,
+  "intermediate_size": 16384,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "layers_to_keep": [],
+  "max_position_embeddings": 512,
+  "net_structure_type": 0,
+  "num_attention_heads": 64,
+  "num_hidden_groups": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "num_memory_blocks": 0,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30000
+}
+
+02/24/2020 17:29:04 - INFO - transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-spiece.model from cache at /home/ijon/.cache/torch/transformers/094b3b4d4ab5e624ae6ba8654d88cdb99b2d5a813b323295c37d58680a1c4127.c81d4deb77aec08ce575b7a39a989a79dd54f321bfb82c2b54dd35f52f8182cf
+02/24/2020 17:29:04 - WARNING - transformers.modeling_utils -   There is currently an upstream reproducibility issue with ALBERT v2 models. Please see https://github.com/google-research/google-research/issues/119 for more information.
+02/24/2020 17:29:05 - INFO - transformers.modeling_utils -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-pytorch_model.bin from cache at /home/ijon/.cache/torch/transformers/c8f990f22da3ddf461b7e0d30a079014b20ad2859f352a9f18421485f63a69e7.9ac42d6fae7d18840d74eaf2a6d817700ffdd5af9ae1a12c3e96e239e23f76f4
+02/24/2020 17:29:23 - INFO - transformers.modeling_utils -   Weights of AlbertForSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+02/24/2020 17:29:23 - INFO - transformers.modeling_utils -   Weights from pretrained model not used in AlbertForSequenceClassification: ['predictions.bias', 'predictions.LayerNorm.weight', 'predictions.LayerNorm.bias', 'predictions.dense.weight', 'predictions.dense.bias', 'predictions.decoder.weight', 'predictions.decoder.bias']
+02/24/2020 17:29:28 - INFO - __main__ -   Training/evaluation parameters Namespace(adam_epsilon=1e-08, cache_dir='', config_name='', data_dir='/mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/new/augmented/all', device=device(type='cuda'), do_eval=True, do_lower_case=True, do_train=True, eval_all_checkpoints=True, evaluate_during_training=False, fp16=False, fp16_opt_level='O1', gradient_accumulation_steps=24, learning_rate=1e-05, local_rank=-1, logging_steps=50, max_grad_norm=1.0, max_seq_length=210, max_steps=-1, model_name_or_path='albert-xxlarge-v2', model_type='albert', n_gpu=1, no_cuda=False, num_train_epochs=4.0, output_dir='models_bert/albert_4a_new_dev_augmented_all2', output_mode='classification', overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=2, per_gpu_train_batch_size=2, save_steps=50, seed=543, server_ip='', server_port='', task_name='task4a', tokenizer_name='', warmup_steps=0, weight_decay=0.0)
+02/24/2020 17:29:28 - INFO - __main__ -   Creating features from dataset file at /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/new/augmented/all
+02/24/2020 17:29:28 - INFO - transformers.data.processors.glue -   LOOKING AT /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/new/augmented/all train
+['id', 'sent0', 'sent1', 'gold_label']
+Traceback (most recent call last):
+  File "./examples/run_semeval.py", line 545, in <module>
+    main()
+  File "./examples/run_semeval.py", line 495, in main
+    train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
+  File "./examples/run_semeval.py", line 315, in load_and_cache_examples
+    examples = processor.get_dev_examples(args.data_dir) if evaluate else processor.get_train_examples(args.data_dir)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/data/processors/glue.py", line 573, in get_train_examples
+    return self._create_examples(self._read_csv(os.path.join(data_dir, "subtaskA_data_answers_all.csv")), "train")
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/data/processors/glue.py", line 613, in _create_examples
+    ) for line in lines[1:]  # we skip the line with the column names
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/data/processors/glue.py", line 613, in <listcomp>
+    ) for line in lines[1:]  # we skip the line with the column names
+IndexError: list index out of range

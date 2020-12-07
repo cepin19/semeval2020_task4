@@ -1,0 +1,28 @@
+Example: 1803,A chicken lays eggs when it gives birth.,A chicken gives birth to live chicks that are not encased in eggs.,1    Prediction:0
+Example: 1768,He is playing cricket on his own rules.,To play the cricket there are some universal  rules.,0    Prediction:1
+Example: 1154,He put a toy rocket inside a rocket.,He put a rocket inside a toy rocket.,1    Prediction:0
+Example: 1626,The largest animal on the land is the elephant,The largest animal  is the elephant,1    Prediction:0
+Example: 1919,I am going to temple for prey,I am going to the circus for prey,1    Prediction:0
+Example: 1461,The horse gave birth to a little horse,The horse gave birth to a puppy,1    Prediction:0
+Example: 741,Hair is already dead,Hair screams when you cut it,1    Prediction:0
+Example: 1805,everyone in the world needs a helmet,everyone needs a heart,0    Prediction:1
+Example: 1912,Some mammals are born with two paws,Every mammal is born with two paws,0    Prediction:1
+Example: 822,horses can sleep standing up,horses don't need to sleep,1    Prediction:0
+Example: 1306,Sometimes thinking does not require a brain,Sometimes thinking does not require a pen,0    Prediction:1
+Example: 1717,A player can easily place his own king in check.,A player can never place his own king in check.,0    Prediction:1
+Example: 1321,Water is in solid form while cold,Water is in liquid form while cold,1    Prediction:0
+Example: 1851,Cats have got seven lives,Cats have got one life,0    Prediction:1
+Example: 167,Mike wants an electric car because gas prices are so low.,Mike wants a V12 car because gas prices are so low.,0    Prediction:1
+Example: 937,he put 2 bottles in his cap,he put a case of the bottle in his cap,1    Prediction:0
+Example: 352,the girl on the phone is annoying,the phone is annoying,1    Prediction:0
+Example: 1457,"It was late, so she hurried up","It was late, so she stopped and had a rest",1    Prediction:0
+Example: 1035,babies are born naked,babies are born with clothes on,1    Prediction:0
+Example: 1261,A bald man brushed his hair every day,A bald man washed his hair every day,0    Prediction:1
+Example: 1224,He lived without Sara for about a year,He lived without food for about a year,1    Prediction:0
+Example: 1714,fencing is not a dangerous sport,fencing is a dangerous sport,1    Prediction:0
+Example: 1670,You have three fingers on one hand.,You have five fingers on one hand.,0    Prediction:1
+Example: 1268,He can swim so he uses a swimming ring,He can't swim so he uses a swimming ring,0    Prediction:1
+Example: 1566,Trees can sometimes live in saltwater,Trees can not live on the ground,1    Prediction:0
+Example: 893,an equilateral triangle may have three unequal sides,"an equilateral triangle has angles of 60, 60, and 60 degrees respectively",0    Prediction:1
+Example: 778,a blind person can touch the table,a blind person can see the table,1    Prediction:0
+Example: 1178,Not every item in the grocery store is taxable.,Each item in the grocery store is taxable.,1    Prediction:0

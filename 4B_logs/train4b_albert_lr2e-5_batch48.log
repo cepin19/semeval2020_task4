@@ -1,0 +1,84 @@
+03/06/2020 21:16:24 - WARNING - __main__ -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, 16-bits training: False
+03/06/2020 21:16:24 - WARNING - root -   NUM LABELS: 3
+03/06/2020 21:16:24 - WARNING - root -   <class 'transformers.configuration_albert.AlbertConfig'>
+03/06/2020 21:16:25 - INFO - transformers.configuration_utils -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-config.json from cache at /home/ijon/.cache/torch/transformers/b3eed512e24335a76694282193217608ead013caa55330de3ff236d1f5695e6c.58c1d03602d9707494c5ff902d07817fd2b4ed6a589b2b062364aed4ae3d3765
+03/06/2020 21:16:25 - INFO - transformers.configuration_utils -   Model config {
+  "architectures": [
+    "AlbertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0,
+  "down_scale_factor": 1,
+  "embedding_size": 128,
+  "finetuning_task": "task4b",
+  "gap_size": 0,
+  "hidden_act": "gelu_new",
+  "hidden_dropout_prob": 0,
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "inner_group_num": 1,
+  "intermediate_size": 16384,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "layers_to_keep": [],
+  "max_position_embeddings": 512,
+  "net_structure_type": 0,
+  "num_attention_heads": 64,
+  "num_hidden_groups": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 3,
+  "num_memory_blocks": 0,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30000
+}
+
+03/06/2020 21:16:25 - INFO - transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-spiece.model from cache at /home/ijon/.cache/torch/transformers/094b3b4d4ab5e624ae6ba8654d88cdb99b2d5a813b323295c37d58680a1c4127.c81d4deb77aec08ce575b7a39a989a79dd54f321bfb82c2b54dd35f52f8182cf
+03/06/2020 21:16:26 - WARNING - transformers.modeling_utils -   There is currently an upstream reproducibility issue with ALBERT v2 models. Please see https://github.com/google-research/google-research/issues/119 for more information.
+03/06/2020 21:16:26 - INFO - transformers.modeling_utils -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-pytorch_model.bin from cache at /home/ijon/.cache/torch/transformers/c8f990f22da3ddf461b7e0d30a079014b20ad2859f352a9f18421485f63a69e7.9ac42d6fae7d18840d74eaf2a6d817700ffdd5af9ae1a12c3e96e239e23f76f4
+03/06/2020 21:16:33 - INFO - transformers.modeling_utils -   Weights of AlbertForSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+03/06/2020 21:16:33 - INFO - transformers.modeling_utils -   Weights from pretrained model not used in AlbertForSequenceClassification: ['predictions.bias', 'predictions.LayerNorm.weight', 'predictions.LayerNorm.bias', 'predictions.dense.weight', 'predictions.dense.bias', 'predictions.decoder.weight', 'predictions.decoder.bias']
+03/06/2020 21:16:35 - INFO - __main__ -   Training/evaluation parameters Namespace(adam_epsilon=1e-08, cache_dir='', config_name='', data_dir='/mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB', device=device(type='cuda'), do_eval=True, do_lower_case=True, do_test=False, do_train=True, eval_all_checkpoints=True, evaluate_during_training=False, fp16=False, fp16_opt_level='O1', gradient_accumulation_steps=16, learning_rate=2e-05, local_rank=-1, logging_steps=50, max_grad_norm=1.0, max_seq_length=165, max_steps=-1, model_name_or_path='albert-xxlarge-v2', model_type='albert', n_gpu=1, no_cuda=False, num_train_epochs=10.0, output_dir='models_bert/albert_4b_lr2_batch48--per_gpu_eval_batch_size=3', overwrite_cache=False, overwrite_output_dir=True, per_gpu_eval_batch_size=8, per_gpu_train_batch_size=1, save_steps=50, seed=5431, server_ip='', server_port='', task_name='task4b', tokenizer_name='', warmup_steps=0, weight_decay=0.0)
+03/06/2020 21:16:35 - INFO - __main__ -   Loading features from cached file /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB/cached_train_albert-xxlarge-v2_165_task4b
+03/06/2020 21:16:36 - WARNING - root -   All label ids:
+03/06/2020 21:16:36 - WARNING - root -   tensor([1, 1, 0,  ..., 0, 2, 2])
+03/06/2020 21:16:36 - INFO - __main__ -   ***** Running training *****
+03/06/2020 21:16:36 - INFO - __main__ -     Num examples = 10000
+03/06/2020 21:16:36 - INFO - __main__ -     Num Epochs = 10
+03/06/2020 21:16:36 - INFO - __main__ -     Instantaneous batch size per GPU = 1
+03/06/2020 21:16:36 - INFO - __main__ -     Total train batch size (w. parallel, distributed & accumulation) = 16
+03/06/2020 21:16:36 - INFO - __main__ -     Gradient Accumulation steps = 16
+03/06/2020 21:16:36 - INFO - __main__ -     Total optimization steps = 6250
+Iteration:   0%|          | 0/10000 [00:00<?, ?it/s]
+Epoch:   0%|          | 0/10 [00:00<?, ?it/s][A
+
+Iteration:   0%|          | 0/10000 [00:00<?, ?it/s][A[A
+                                             [A
+
+                                                    [A[AIteration:   0%|          | 0/10000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "./examples/run_semeval_task4b.py", line 618, in <module>
+    main()
+  File "./examples/run_semeval_task4b.py", line 549, in main
+    global_step, tr_loss, best_steps = train(args, train_dataset, model, tokenizer)
+  File "./examples/run_semeval_task4b.py", line 184, in train
+    outputs = model(**inputs)
+  File "/home/ijon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_albert.py", line 687, in forward
+    inputs_embeds=inputs_embeds
+  File "/home/ijon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_albert.py", line 536, in forward
+    inputs_embeds=inputs_embeds)
+  File "/home/ijon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_bert.py", line 175, in forward
+    position_ids = position_ids.unsqueeze(0).expand(input_shape)
+RuntimeError: The expanded size of the tensor (165) must match the existing size (3) at non-singleton dimension 2.  Target sizes: [1, 3, 165].  Tensor sizes: [1, 3]
+Iteration:   0%|          | 0/10000 [00:00<?, ?it/s]
+Epoch:   0%|          | 0/10 [00:00<?, ?it/s]

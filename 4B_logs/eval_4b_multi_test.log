@@ -1,0 +1,380 @@
+03/10/2020 18:46:32 - WARNING - __main__ -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, 16-bits training: False
+03/10/2020 18:46:32 - WARNING - root -   NUM LABELS: 3
+03/10/2020 18:46:32 - WARNING - root -   <class 'transformers.configuration_albert.AlbertConfig'>
+03/10/2020 18:46:32 - INFO - transformers.configuration_utils -   loading configuration file model_eval_4b/config.json
+03/10/2020 18:46:32 - INFO - transformers.configuration_utils -   Model config {
+  "architectures": [
+    "AlbertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0,
+  "down_scale_factor": 1,
+  "embedding_size": 128,
+  "finetuning_task": "task4b",
+  "gap_size": 0,
+  "hidden_act": "gelu_new",
+  "hidden_dropout_prob": 0,
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "inner_group_num": 1,
+  "intermediate_size": 16384,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "layers_to_keep": [],
+  "max_position_embeddings": 512,
+  "net_structure_type": 0,
+  "num_attention_heads": 64,
+  "num_hidden_groups": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 3,
+  "num_memory_blocks": 0,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30000
+}
+
+03/10/2020 18:46:32 - INFO - transformers.tokenization_utils -   Model name 'model_eval_4b/' not found in model shortcut name list (albert-base-v1, albert-large-v1, albert-xlarge-v1, albert-xxlarge-v1, albert-base-v2, albert-large-v2, albert-xlarge-v2, albert-xxlarge-v2). Assuming 'model_eval_4b/' is a path or url to a directory containing tokenizer files.
+03/10/2020 18:46:32 - INFO - transformers.tokenization_utils -   loading file model_eval_4b/spiece.model
+03/10/2020 18:46:32 - INFO - transformers.tokenization_utils -   loading file model_eval_4b/added_tokens.json
+03/10/2020 18:46:32 - INFO - transformers.tokenization_utils -   loading file model_eval_4b/special_tokens_map.json
+03/10/2020 18:46:32 - INFO - transformers.tokenization_utils -   loading file model_eval_4b/tokenizer_config.json
+03/10/2020 18:46:32 - INFO - transformers.modeling_utils -   loading weights file model_eval_4b/pytorch_model.bin
+03/10/2020 18:46:38 - INFO - __main__ -   Training/evaluation parameters Namespace(adam_epsilon=1e-08, cache_dir='', config_name='', data_dir='/mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB/', device=device(type='cuda'), do_eval=True, do_lower_case=True, do_test=False, do_train=False, eval_all_checkpoints=False, evaluate_during_training=False, fp16=False, fp16_opt_level='O1', gradient_accumulation_steps=24, learning_rate=1e-05, local_rank=-1, logging_steps=50, max_grad_norm=1.0, max_seq_length=210, max_steps=-1, model_name_or_path='model_eval_4b/', model_type='albert', n_gpu=1, no_cuda=False, num_train_epochs=8.0, output_dir='model_eval_4b/', overwrite_cache=False, overwrite_output_dir=True, per_gpu_eval_batch_size=16, per_gpu_train_batch_size=2, save_steps=50, seed=5432, server_ip='', server_port='', task_name='task4b', tokenizer_name='', warmup_steps=0, weight_decay=0.0)
+03/10/2020 18:46:38 - INFO - __main__ -   Evaluate the following checkpoints: ['model_eval_4b/']
+03/10/2020 18:46:38 - INFO - transformers.configuration_utils -   loading configuration file model_eval_4b/config.json
+03/10/2020 18:46:38 - INFO - transformers.configuration_utils -   Model config {
+  "architectures": [
+    "AlbertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0,
+  "down_scale_factor": 1,
+  "embedding_size": 128,
+  "finetuning_task": "task4b",
+  "gap_size": 0,
+  "hidden_act": "gelu_new",
+  "hidden_dropout_prob": 0,
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "inner_group_num": 1,
+  "intermediate_size": 16384,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "layers_to_keep": [],
+  "max_position_embeddings": 512,
+  "net_structure_type": 0,
+  "num_attention_heads": 64,
+  "num_hidden_groups": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 3,
+  "num_memory_blocks": 0,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30000
+}
+
+03/10/2020 18:46:38 - INFO - transformers.modeling_utils -   loading weights file model_eval_4b/pytorch_model.bin
+03/10/2020 18:46:42 - INFO - __main__ -   Loading features from cached file /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB/cached_dev_model_eval_4b_210_task4b
+03/10/2020 18:46:42 - WARNING - root -   All label ids:
+03/10/2020 18:46:42 - WARNING - root -   tensor([2, 2, 1, 1, 0, 1, 2, 0, 2, 2, 0, 2, 0, 2, 0, 1, 1, 2, 1, 1, 1, 2, 1, 2,
+        2, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 2, 1, 2, 0, 1, 1, 1, 0, 1, 1,
+        2, 2, 2, 2, 1, 0, 2, 2, 2, 2, 1, 0, 1, 2, 0, 1, 0, 1, 2, 2, 1, 0, 2, 1,
+        1, 0, 0, 2, 1, 1, 0, 0, 1, 1, 0, 1, 2, 2, 1, 2, 0, 0, 1, 0, 2, 0, 1, 0,
+        1, 0, 0, 0, 0, 1, 0, 0, 0, 2, 1, 1, 2, 2, 1, 1, 1, 2, 0, 2, 0, 2, 0, 2,
+        1, 1, 2, 2, 1, 2, 0, 2, 0, 0, 0, 1, 1, 2, 2, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+        1, 1, 1, 2, 0, 1, 2, 2, 1, 1, 0, 1, 1, 2, 0, 1, 1, 0, 0, 2, 2, 0, 1, 1,
+        1, 1, 0, 2, 2, 0, 0, 1, 0, 0, 0, 1, 2, 1, 2, 1, 0, 0, 2, 0, 2, 0, 1, 1,
+        1, 2, 1, 0, 2, 2, 0, 1, 1, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 0, 2, 1, 2, 1,
+        1, 2, 0, 2, 1, 0, 2, 2, 2, 2, 2, 0, 0, 0, 2, 1, 2, 2, 1, 0, 0, 2, 2, 0,
+        1, 1, 2, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 2, 0, 0, 2, 2, 1, 0, 0,
+        0, 0, 1, 2, 0, 0, 2, 0, 0, 1, 2, 1, 2, 1, 0, 0, 2, 0, 0, 1, 1, 2, 0, 0,
+        0, 2, 2, 1, 0, 0, 1, 2, 0, 2, 2, 0, 1, 2, 1, 0, 1, 2, 1, 2, 1, 2, 2, 0,
+        2, 1, 0, 0, 0, 1, 0, 0, 1, 0, 2, 0, 1, 1, 1, 2, 2, 2, 2, 2, 0, 2, 0, 0,
+        0, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 2, 1, 0, 2, 1, 2, 0, 1, 2, 1, 1, 1, 0,
+        0, 2, 2, 2, 1, 1, 1, 2, 0, 0, 2, 2, 0, 2, 0, 2, 1, 2, 2, 1, 1, 1, 2, 0,
+        1, 1, 1, 2, 2, 2, 2, 1, 0, 2, 0, 2, 0, 2, 1, 2, 1, 2, 0, 0, 0, 2, 1, 2,
+        2, 1, 1, 0, 2, 2, 2, 2, 0, 0, 2, 2, 0, 0, 0, 0, 2, 1, 1, 0, 2, 2, 1, 1,
+        0, 2, 1, 0, 1, 1, 0, 1, 0, 2, 0, 1, 1, 1, 2, 2, 0, 2, 2, 1, 2, 2, 1, 1,
+        0, 0, 1, 0, 0, 1, 2, 0, 0, 2, 0, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 0, 1, 1,
+        2, 0, 2, 1, 0, 2, 2, 0, 0, 1, 0, 2, 0, 0, 0, 2, 2, 2, 1, 0, 2, 0, 2, 2,
+        2, 1, 2, 1, 1, 2, 0, 2, 2, 1, 1, 0, 1, 0, 0, 0, 0, 2, 2, 2, 2, 0, 1, 1,
+        1, 0, 1, 1, 0, 2, 0, 2, 2, 1, 0, 0, 2, 2, 0, 0, 0, 2, 0, 0, 1, 0, 2, 0,
+        1, 2, 0, 1, 1, 0, 2, 2, 0, 1, 1, 2, 2, 2, 2, 1, 0, 2, 0, 2, 1, 0, 1, 0,
+        2, 1, 2, 0, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 2, 1, 2, 1, 2, 2, 2, 0,
+        2, 2, 0, 1, 1, 1, 0, 2, 1, 1, 1, 0, 1, 1, 1, 2, 0, 0, 1, 0, 0, 1, 2, 1,
+        2, 2, 2, 1, 0, 2, 2, 1, 2, 0, 0, 2, 1, 1, 2, 1, 0, 0, 1, 2, 2, 2, 2, 1,
+        1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0, 1, 1, 0, 1, 0, 0, 1,
+        0, 0, 0, 2, 1, 1, 0, 1, 2, 0, 1, 1, 1, 1, 0, 0, 2, 2, 1, 0, 1, 1, 2, 1,
+        0, 0, 2, 0, 0, 0, 1, 1, 1, 1, 0, 2, 0, 1, 1, 0, 1, 2, 1, 2, 2, 2, 0, 1,
+        2, 0, 2, 1, 1, 0, 1, 0, 1, 0, 0, 2, 1, 1, 1, 2, 0, 0, 2, 0, 1, 0, 1, 0,
+        2, 2, 0, 0, 1, 0, 2, 1, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 1, 0, 2, 0, 0, 2,
+        2, 0, 2, 1, 0, 1, 0, 1, 1, 0, 2, 0, 1, 1, 1, 1, 1, 0, 2, 1, 0, 0, 1, 1,
+        0, 0, 0, 1, 2, 2, 0, 1, 0, 2, 0, 2, 2, 0, 2, 2, 2, 1, 0, 2, 2, 2, 1, 1,
+        1, 2, 0, 2, 1, 1, 2, 0, 2, 1, 1, 1, 2, 1, 2, 1, 0, 1, 2, 1, 0, 0, 0, 2,
+        2, 2, 2, 0, 0, 1, 2, 2, 2, 1, 0, 2, 2, 0, 1, 2, 1, 1, 1, 2, 0, 0, 1, 1,
+        2, 2, 0, 2, 2, 0, 0, 1, 0, 0, 0, 2, 1, 2, 0, 2, 0, 1, 1, 0, 2, 0, 2, 0,
+        0, 1, 0, 0, 1, 2, 0, 1, 0, 2, 0, 2, 1, 2, 0, 0, 2, 2, 2, 0, 2, 1, 0, 0,
+        0, 0, 1, 1, 1, 0, 0, 2, 1, 0, 1, 1, 2, 1, 2, 0, 1, 1, 1, 1, 1, 1, 1, 0,
+        0, 2, 2, 2, 0, 2, 0, 2, 1, 2, 0, 2, 0, 2, 2, 1, 1, 0, 1, 0, 0, 0, 0, 2,
+        0, 2, 1, 0, 2, 0, 0, 2, 0, 0, 1, 0, 1, 2, 2, 2, 0, 2, 2, 2, 2, 0, 1, 2,
+        2, 2, 0, 0, 1, 1, 1, 2, 2, 1, 1, 1, 1])
+03/10/2020 18:46:42 - INFO - __main__ -   ***** Running evaluation  *****
+03/10/2020 18:46:42 - INFO - __main__ -     Num examples = 997
+03/10/2020 18:46:42 - INFO - __main__ -     Batch size = 16
+Evaluating:   0%|          | 0/63 [00:00<?, ?it/s]Evaluating:   2%|▏         | 1/63 [00:04<04:45,  4.60s/it]Evaluating:   3%|▎         | 2/63 [00:09<04:40,  4.60s/it]Evaluating:   5%|▍         | 3/63 [00:13<04:37,  4.62s/it]Evaluating:   6%|▋         | 4/63 [00:18<04:32,  4.63s/it]Evaluating:   8%|▊         | 5/63 [00:23<04:29,  4.64s/it]Evaluating:  10%|▉         | 6/63 [00:27<04:24,  4.64s/it]Evaluating:  11%|█         | 7/63 [00:32<04:19,  4.64s/it]Evaluating:  13%|█▎        | 8/63 [00:37<04:15,  4.65s/it]Evaluating:  14%|█▍        | 9/63 [00:41<04:09,  4.62s/it]Evaluating:  16%|█▌        | 10/63 [00:46<04:05,  4.63s/it]Evaluating:  17%|█▋        | 11/63 [00:50<04:00,  4.63s/it]Evaluating:  19%|█▉        | 12/63 [00:55<03:55,  4.62s/it]Evaluating:  21%|██        | 13/63 [01:00<03:51,  4.63s/it]Evaluating:  22%|██▏       | 14/63 [01:04<03:47,  4.65s/it]Evaluating:  24%|██▍       | 15/63 [01:09<03:42,  4.64s/it]Evaluating:  25%|██▌       | 16/63 [01:14<03:39,  4.66s/it]Evaluating:  27%|██▋       | 17/63 [01:18<03:35,  4.68s/it]Evaluating:  29%|██▊       | 18/63 [01:23<03:30,  4.67s/it]Evaluating:  30%|███       | 19/63 [01:28<03:25,  4.68s/it]Evaluating:  32%|███▏      | 20/63 [01:33<03:21,  4.69s/it]Evaluating:  33%|███▎      | 21/63 [01:37<03:17,  4.70s/it]Evaluating:  35%|███▍      | 22/63 [01:42<03:12,  4.71s/it]Evaluating:  37%|███▋      | 23/63 [01:47<03:08,  4.72s/it]Evaluating:  38%|███▊      | 24/63 [01:51<03:04,  4.73s/it]Evaluating:  40%|███▉      | 25/63 [01:56<03:00,  4.74s/it]Evaluating:  41%|████▏     | 26/63 [02:01<02:55,  4.74s/it]Evaluating:  43%|████▎     | 27/63 [02:06<02:51,  4.77s/it]Evaluating:  44%|████▍     | 28/63 [02:11<02:47,  4.77s/it]Evaluating:  46%|████▌     | 29/63 [02:15<02:42,  4.77s/it]Evaluating:  48%|████▊     | 30/63 [02:20<02:37,  4.77s/it]Evaluating:  49%|████▉     | 31/63 [02:25<02:33,  4.78s/it]Evaluating:  51%|█████     | 32/63 [02:30<02:28,  4.78s/it]Evaluating:  52%|█████▏    | 33/63 [02:35<02:23,  4.79s/it]Evaluating:  54%|█████▍    | 34/63 [02:39<02:19,  4.81s/it]Evaluating:  56%|█████▌    | 35/63 [02:44<02:14,  4.80s/it]Evaluating:  57%|█████▋    | 36/63 [02:49<02:09,  4.81s/it]Evaluating:  59%|█████▊    | 37/63 [02:54<02:04,  4.79s/it]Evaluating:  60%|██████    | 38/63 [02:59<01:59,  4.79s/it]Evaluating:  62%|██████▏   | 39/63 [03:03<01:55,  4.81s/it]Evaluating:  63%|██████▎   | 40/63 [03:08<01:51,  4.84s/it]Evaluating:  65%|██████▌   | 41/63 [03:13<01:46,  4.82s/it]Evaluating:  67%|██████▋   | 42/63 [03:18<01:41,  4.82s/it]Evaluating:  68%|██████▊   | 43/63 [03:23<01:36,  4.82s/it]Evaluating:  70%|██████▉   | 44/63 [03:28<01:31,  4.82s/it]Evaluating:  71%|███████▏  | 45/63 [03:32<01:26,  4.82s/it]Evaluating:  73%|███████▎  | 46/63 [03:37<01:22,  4.82s/it]Evaluating:  75%|███████▍  | 47/63 [03:42<01:16,  4.81s/it]Evaluating:  76%|███████▌  | 48/63 [03:47<01:12,  4.84s/it]Evaluating:  78%|███████▊  | 49/63 [03:52<01:07,  4.85s/it]Evaluating:  79%|███████▉  | 50/63 [03:57<01:02,  4.83s/it]Evaluating:  81%|████████  | 51/63 [04:02<00:58,  4.88s/it]Evaluating:  83%|████████▎ | 52/63 [04:06<00:53,  4.85s/it]Evaluating:  84%|████████▍ | 53/63 [04:11<00:48,  4.86s/it]Evaluating:  86%|████████▌ | 54/63 [04:16<00:43,  4.85s/it]Evaluating:  87%|████████▋ | 55/63 [04:21<00:38,  4.82s/it]Evaluating:  89%|████████▉ | 56/63 [04:26<00:33,  4.82s/it]Evaluating:  90%|█████████ | 57/63 [04:30<00:28,  4.80s/it]Evaluating:  92%|█████████▏| 58/63 [04:35<00:24,  4.82s/it]Evaluating:  94%|█████████▎| 59/63 [04:40<00:19,  4.84s/it]Evaluating:  95%|█████████▌| 60/63 [04:45<00:14,  4.83s/it]Evaluating:  97%|█████████▋| 61/63 [04:50<00:09,  4.82s/it]Evaluating:  98%|█████████▊| 62/63 [04:55<00:04,  4.82s/it]Evaluating: 100%|██████████| 63/63 [04:56<00:00,  3.80s/it]Evaluating: 100%|██████████| 63/63 [04:56<00:00,  4.71s/it]
+03/10/2020 18:51:39 - WARNING - root -   [2 2 1 1 0 1 2 0 2 2 0 2 0 2 0 1 1 2 1 1 1 2 1 2 2 0 0 1 0 0 0 1 0 1 1 0 0
+ 1 2 1 2 0 1 1 1 0 1 1 2 2 2 2 1 0 2 2 2 2 1 0 1 2 0 1 0 1 2 2 1 0 2 1 1 0
+ 0 2 1 1 0 0 1 1 0 1 2 2 1 2 0 0 1 0 2 0 1 0 1 0 0 0 0 1 0 0 0 2 1 1 2 2 1
+ 1 1 2 0 2 0 2 0 2 1 1 2 2 1 2 0 2 0 0 0 1 1 2 2 1 0 1 1 0 1 1 0 1 1 1 1 2
+ 0 1 2 2 1 1 0 1 1 2 0 1 1 0 0 2 2 0 1 1 1 1 0 2 2 0 0 1 0 0 0 1 2 1 2 1 0
+ 0 2 0 2 0 1 1 1 2 1 0 2 2 0 1 1 2 2 2 2 1 1 2 2 2 2 0 2 1 2 1 1 2 0 2 1 0
+ 2 2 2 2 2 0 0 0 2 1 2 2 1 0 0 2 2 0 1 1 2 0 0 2 0 1 1 0 0 0 0 0 1 1 2 0 0
+ 2 2 1 0 0 0 0 1 2 0 0 2 0 0 1 2 1 2 1 0 0 2 0 0 1 1 2 0 0 0 2 2 1 0 0 1 2
+ 0 2 2 0 1 2 1 0 1 2 1 2 1 2 2 0 2 1 0 0 0 1 0 0 1 0 2 0 1 1 1 2 2 2 2 2 0
+ 2 0 0 0 2 1 0 1 0 0 1 2 2 1 2 1 0 2 1 2 0 1 2 1 1 1 0 0 2 2 2 1 1 1 2 0 0
+ 2 2 0 2 0 2 1 2 2 1 1 1 2 0 1 1 1 2 2 2 2 1 0 2 0 2 0 2 1 2 1 2 0 0 0 2 1
+ 2 2 1 1 0 2 2 2 2 0 0 2 2 0 0 0 0 2 1 1 0 2 2 1 1 0 2 1 0 1 1 0 1 0 2 0 1
+ 1 1 2 2 0 2 2 1 2 2 1 1 0 0 1 0 0 1 2 0 0 2 0 1 1 1 2 1 0 1 2 1 1 0 1 1 2
+ 0 2 1 0 2 2 0 0 1 0 2 0 0 0 2 2 2 1 0 2 0 2 2 2 1 2 1 1 2 0 2 2 1 1 0 1 0
+ 0 0 0 2 2 2 2 0 1 1 1 0 1 1 0 2 0 2 2 1 0 0 2 2 0 0 0 2 0 0 1 0 2 0 1 2 0
+ 1 1 0 2 2 0 1 1 2 2 2 2 1 0 2 0 2 1 0 1 0 2 1 2 0 2 0 0 0 0 0 0 1 1 1 0 1
+ 2 1 2 1 2 2 2 0 2 2 0 1 1 1 0 2 1 1 1 0 1 1 1 2 0 0 1 0 0 1 2 1 2 2 2 1 0
+ 2 2 1 2 0 0 2 1 1 2 1 0 0 1 2 2 2 2 1 1 0 0 0 0 1 0 0 0 1 0 0 0 1 0 2 0 1
+ 1 0 1 0 0 1 0 0 0 2 1 1 0 1 2 0 1 1 1 1 0 0 2 2 1 0 1 1 2 1 0 0 2 0 0 0 1
+ 1 1 1 0 2 0 1 1 0 1 2 1 2 2 2 0 1 2 0 2 1 1 0 1 0 1 0 0 2 1 1 1 2 0 0 2 0
+ 1 0 1 0 2 2 0 0 1 0 2 1 2 2 2 0 1 0 2 0 2 0 1 0 2 0 0 2 2 0 2 1 0 1 0 1 1
+ 0 2 0 1 1 1 1 1 0 2 1 0 0 1 1 0 0 0 1 2 2 0 1 0 2 0 2 2 0 2 2 2 1 0 2 2 2
+ 1 1 1 2 0 2 1 1 2 0 2 1 1 1 2 1 2 1 0 1 2 1 0 0 0 2 2 2 2 0 0 1 2 2 2 1 0
+ 2 2 0 1 2 1 1 1 2 0 0 1 1 2 2 0 2 2 0 0 1 0 0 0 2 1 2 0 2 0 1 1 0 2 0 2 0
+ 0 1 0 0 1 2 0 1 0 2 0 2 1 2 0 0 2 2 2 0 2 1 0 0 0 0 1 1 1 0 0 2 1 0 1 1 2
+ 1 2 0 1 1 1 1 1 1 1 0 0 2 2 2 0 2 0 2 1 2 0 2 0 2 2 1 1 0 1 0 0 0 0 2 0 2
+ 1 0 2 0 0 2 0 0 1 0 1 2 2 2 0 2 2 2 2 0 1 2 2 2 0 0 1 1 1 2 2 1 1 1 1]
+03/10/2020 18:51:39 - WARNING - root -   [2 2 2 1 0 1 2 0 2 2 0 2 0 2 0 1 1 2 1 1 1 2 1 1 2 1 0 1 0 0 0 1 0 1 1 0 0
+ 0 2 1 2 0 1 1 1 0 1 1 2 2 2 2 1 0 2 0 2 2 1 0 1 2 0 1 0 1 2 2 1 0 2 1 1 0
+ 0 2 1 1 0 1 1 1 0 1 2 2 1 2 0 0 1 0 2 0 0 2 1 0 0 0 0 1 0 0 0 2 1 1 2 2 1
+ 1 1 2 0 2 0 2 0 2 1 1 2 2 1 2 1 2 0 0 0 1 1 2 2 1 0 1 1 0 1 1 0 1 1 1 1 2
+ 0 1 2 2 1 1 1 1 1 2 0 1 1 0 0 2 2 0 1 1 1 1 0 2 2 0 0 1 0 0 0 1 2 0 2 1 0
+ 0 2 0 2 0 1 1 1 2 1 0 2 2 0 1 1 2 2 2 2 1 1 2 2 0 2 0 2 1 2 1 1 0 0 2 1 0
+ 2 2 2 2 2 0 0 0 1 1 2 2 1 0 1 2 2 0 1 1 2 0 0 2 0 1 2 1 0 0 0 0 0 1 2 0 0
+ 2 2 1 0 0 0 0 1 2 1 0 2 2 0 1 2 1 2 1 0 0 2 0 0 1 1 2 0 0 0 2 2 1 0 0 1 2
+ 0 2 2 0 1 2 1 0 1 2 1 2 1 2 2 0 2 1 0 0 2 1 2 0 1 0 2 0 1 1 0 2 2 2 2 2 0
+ 2 1 0 1 2 2 0 1 2 0 1 0 2 1 2 2 2 2 1 2 0 1 2 1 1 1 0 0 2 1 2 1 1 1 2 0 0
+ 2 2 0 2 0 2 1 2 2 1 1 1 2 0 1 0 1 2 1 2 2 1 0 2 0 2 0 2 1 2 1 2 0 0 0 2 1
+ 2 1 1 1 0 2 2 2 2 0 0 2 2 0 0 0 0 2 1 1 0 2 2 1 1 0 2 1 0 1 1 0 1 0 2 0 1
+ 1 1 2 2 0 2 2 1 0 2 1 1 0 0 1 0 0 1 2 0 0 2 0 1 1 1 2 1 0 1 2 1 1 0 1 1 2
+ 0 2 1 0 2 2 0 0 1 0 2 2 0 0 2 2 2 1 2 2 0 2 2 2 1 2 1 1 2 1 2 2 1 1 0 1 0
+ 0 0 0 2 0 2 2 0 1 1 1 0 1 1 0 2 0 2 2 1 0 0 0 0 0 0 0 2 0 0 1 0 2 0 1 2 0
+ 1 1 0 2 2 0 1 1 2 2 2 2 1 0 2 0 2 1 0 1 0 2 1 0 0 2 0 0 0 0 0 0 1 1 2 0 1
+ 2 2 2 1 2 2 2 0 1 2 1 1 2 1 0 2 1 1 1 1 1 1 1 2 0 0 1 2 2 1 2 1 2 2 2 1 0
+ 2 2 1 2 0 0 2 1 1 2 1 0 0 1 2 2 2 2 1 1 2 0 0 0 1 0 0 0 0 0 0 0 1 0 2 0 1
+ 1 0 1 0 0 1 0 0 0 2 1 1 0 1 2 2 1 1 1 1 0 0 2 2 1 0 1 1 2 1 0 0 2 0 0 1 1
+ 1 1 0 0 2 0 0 2 0 1 1 1 2 1 2 0 1 2 0 2 1 1 0 1 0 1 0 0 2 1 1 1 2 0 0 2 0
+ 1 0 1 0 0 2 0 0 1 0 2 2 2 2 0 0 1 0 2 0 2 0 1 0 2 0 0 2 2 0 2 1 0 1 0 0 1
+ 1 2 0 1 1 1 1 1 0 2 1 0 0 1 1 0 0 0 1 2 0 0 1 0 2 0 2 2 0 2 2 2 1 0 2 2 2
+ 0 1 1 2 0 2 1 1 2 0 2 1 1 1 2 1 2 1 2 1 2 1 0 0 0 2 1 1 2 0 0 1 2 2 2 1 0
+ 2 2 0 1 2 1 1 1 2 0 0 1 1 2 2 0 2 2 0 0 1 0 0 2 2 1 2 0 2 0 1 1 0 2 0 2 0
+ 2 1 0 0 1 2 0 2 0 2 2 0 1 2 0 0 2 2 2 0 2 2 0 0 0 0 1 1 1 0 0 2 1 0 1 1 2
+ 1 2 0 1 1 1 1 1 1 1 0 0 2 2 2 0 1 0 2 1 0 0 2 0 2 2 2 1 0 1 0 2 0 0 2 0 2
+ 1 0 2 0 1 2 0 0 1 0 1 2 2 2 0 0 2 2 2 0 0 2 2 2 0 0 1 1 1 2 1 1 1 1 2]
+03/10/2020 18:51:39 - INFO - __main__ -   ***** Eval results  is test:False *****
+03/10/2020 18:51:39 - INFO - __main__ -     eval_acc = 0.9157472417251755
+03/10/2020 18:51:39 - INFO - __main__ -     eval_loss = 0.2784518063186653
+03/10/2020 18:51:39 - INFO - __main__ -     f1 = 0.9157472417251755
+03/10/2020 18:51:52 - WARNING - __main__ -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, 16-bits training: False
+03/10/2020 18:51:52 - WARNING - root -   NUM LABELS: 3
+03/10/2020 18:51:52 - WARNING - root -   <class 'transformers.configuration_albert.AlbertConfig'>
+03/10/2020 18:51:52 - INFO - transformers.configuration_utils -   loading configuration file model_eval_4b/config.json
+03/10/2020 18:51:52 - INFO - transformers.configuration_utils -   Model config {
+  "architectures": [
+    "AlbertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0,
+  "down_scale_factor": 1,
+  "embedding_size": 128,
+  "finetuning_task": "task4b",
+  "gap_size": 0,
+  "hidden_act": "gelu_new",
+  "hidden_dropout_prob": 0,
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "inner_group_num": 1,
+  "intermediate_size": 16384,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "layers_to_keep": [],
+  "max_position_embeddings": 512,
+  "net_structure_type": 0,
+  "num_attention_heads": 64,
+  "num_hidden_groups": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 3,
+  "num_memory_blocks": 0,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30000
+}
+
+03/10/2020 18:51:52 - INFO - transformers.tokenization_utils -   Model name 'model_eval_4b/' not found in model shortcut name list (albert-base-v1, albert-large-v1, albert-xlarge-v1, albert-xxlarge-v1, albert-base-v2, albert-large-v2, albert-xlarge-v2, albert-xxlarge-v2). Assuming 'model_eval_4b/' is a path or url to a directory containing tokenizer files.
+03/10/2020 18:51:52 - INFO - transformers.tokenization_utils -   loading file model_eval_4b/spiece.model
+03/10/2020 18:51:52 - INFO - transformers.tokenization_utils -   loading file model_eval_4b/added_tokens.json
+03/10/2020 18:51:52 - INFO - transformers.tokenization_utils -   loading file model_eval_4b/special_tokens_map.json
+03/10/2020 18:51:52 - INFO - transformers.tokenization_utils -   loading file model_eval_4b/tokenizer_config.json
+03/10/2020 18:51:52 - INFO - transformers.modeling_utils -   loading weights file model_eval_4b/pytorch_model.bin
+03/10/2020 18:51:58 - INFO - __main__ -   Training/evaluation parameters Namespace(adam_epsilon=1e-08, cache_dir='', config_name='', data_dir='/mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB/', device=device(type='cuda'), do_eval=True, do_lower_case=True, do_test=False, do_train=False, eval_all_checkpoints=False, evaluate_during_training=False, fp16=False, fp16_opt_level='O1', gradient_accumulation_steps=24, learning_rate=1e-05, local_rank=-1, logging_steps=50, max_grad_norm=1.0, max_seq_length=210, max_steps=-1, model_name_or_path='model_eval_4b/', model_type='albert', n_gpu=1, no_cuda=False, num_train_epochs=8.0, output_dir='model_eval_4b/', overwrite_cache=False, overwrite_output_dir=True, per_gpu_eval_batch_size=16, per_gpu_train_batch_size=2, save_steps=50, seed=5432, server_ip='', server_port='', task_name='task4b', tokenizer_name='', warmup_steps=0, weight_decay=0.0)
+03/10/2020 18:51:58 - INFO - __main__ -   Evaluate the following checkpoints: ['model_eval_4b/']
+03/10/2020 18:51:58 - INFO - transformers.configuration_utils -   loading configuration file model_eval_4b/config.json
+03/10/2020 18:51:58 - INFO - transformers.configuration_utils -   Model config {
+  "architectures": [
+    "AlbertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0,
+  "down_scale_factor": 1,
+  "embedding_size": 128,
+  "finetuning_task": "task4b",
+  "gap_size": 0,
+  "hidden_act": "gelu_new",
+  "hidden_dropout_prob": 0,
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "inner_group_num": 1,
+  "intermediate_size": 16384,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "layers_to_keep": [],
+  "max_position_embeddings": 512,
+  "net_structure_type": 0,
+  "num_attention_heads": 64,
+  "num_hidden_groups": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 3,
+  "num_memory_blocks": 0,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30000
+}
+
+03/10/2020 18:51:58 - INFO - transformers.modeling_utils -   loading weights file model_eval_4b/pytorch_model.bin
+03/10/2020 18:52:02 - INFO - __main__ -   Loading features from cached file /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB/cached_dev_model_eval_4b_210_task4b
+03/10/2020 18:52:03 - WARNING - root -   All label ids:
+03/10/2020 18:52:03 - WARNING - root -   tensor([2, 2, 1, 1, 0, 1, 2, 0, 2, 2, 0, 2, 0, 2, 0, 1, 1, 2, 1, 1, 1, 2, 1, 2,
+        2, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 2, 1, 2, 0, 1, 1, 1, 0, 1, 1,
+        2, 2, 2, 2, 1, 0, 2, 2, 2, 2, 1, 0, 1, 2, 0, 1, 0, 1, 2, 2, 1, 0, 2, 1,
+        1, 0, 0, 2, 1, 1, 0, 0, 1, 1, 0, 1, 2, 2, 1, 2, 0, 0, 1, 0, 2, 0, 1, 0,
+        1, 0, 0, 0, 0, 1, 0, 0, 0, 2, 1, 1, 2, 2, 1, 1, 1, 2, 0, 2, 0, 2, 0, 2,
+        1, 1, 2, 2, 1, 2, 0, 2, 0, 0, 0, 1, 1, 2, 2, 1, 0, 1, 1, 0, 1, 1, 0, 1,
+        1, 1, 1, 2, 0, 1, 2, 2, 1, 1, 0, 1, 1, 2, 0, 1, 1, 0, 0, 2, 2, 0, 1, 1,
+        1, 1, 0, 2, 2, 0, 0, 1, 0, 0, 0, 1, 2, 1, 2, 1, 0, 0, 2, 0, 2, 0, 1, 1,
+        1, 2, 1, 0, 2, 2, 0, 1, 1, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 0, 2, 1, 2, 1,
+        1, 2, 0, 2, 1, 0, 2, 2, 2, 2, 2, 0, 0, 0, 2, 1, 2, 2, 1, 0, 0, 2, 2, 0,
+        1, 1, 2, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 2, 0, 0, 2, 2, 1, 0, 0,
+        0, 0, 1, 2, 0, 0, 2, 0, 0, 1, 2, 1, 2, 1, 0, 0, 2, 0, 0, 1, 1, 2, 0, 0,
+        0, 2, 2, 1, 0, 0, 1, 2, 0, 2, 2, 0, 1, 2, 1, 0, 1, 2, 1, 2, 1, 2, 2, 0,
+        2, 1, 0, 0, 0, 1, 0, 0, 1, 0, 2, 0, 1, 1, 1, 2, 2, 2, 2, 2, 0, 2, 0, 0,
+        0, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 2, 1, 0, 2, 1, 2, 0, 1, 2, 1, 1, 1, 0,
+        0, 2, 2, 2, 1, 1, 1, 2, 0, 0, 2, 2, 0, 2, 0, 2, 1, 2, 2, 1, 1, 1, 2, 0,
+        1, 1, 1, 2, 2, 2, 2, 1, 0, 2, 0, 2, 0, 2, 1, 2, 1, 2, 0, 0, 0, 2, 1, 2,
+        2, 1, 1, 0, 2, 2, 2, 2, 0, 0, 2, 2, 0, 0, 0, 0, 2, 1, 1, 0, 2, 2, 1, 1,
+        0, 2, 1, 0, 1, 1, 0, 1, 0, 2, 0, 1, 1, 1, 2, 2, 0, 2, 2, 1, 2, 2, 1, 1,
+        0, 0, 1, 0, 0, 1, 2, 0, 0, 2, 0, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 0, 1, 1,
+        2, 0, 2, 1, 0, 2, 2, 0, 0, 1, 0, 2, 0, 0, 0, 2, 2, 2, 1, 0, 2, 0, 2, 2,
+        2, 1, 2, 1, 1, 2, 0, 2, 2, 1, 1, 0, 1, 0, 0, 0, 0, 2, 2, 2, 2, 0, 1, 1,
+        1, 0, 1, 1, 0, 2, 0, 2, 2, 1, 0, 0, 2, 2, 0, 0, 0, 2, 0, 0, 1, 0, 2, 0,
+        1, 2, 0, 1, 1, 0, 2, 2, 0, 1, 1, 2, 2, 2, 2, 1, 0, 2, 0, 2, 1, 0, 1, 0,
+        2, 1, 2, 0, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 2, 1, 2, 1, 2, 2, 2, 0,
+        2, 2, 0, 1, 1, 1, 0, 2, 1, 1, 1, 0, 1, 1, 1, 2, 0, 0, 1, 0, 0, 1, 2, 1,
+        2, 2, 2, 1, 0, 2, 2, 1, 2, 0, 0, 2, 1, 1, 2, 1, 0, 0, 1, 2, 2, 2, 2, 1,
+        1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0, 1, 1, 0, 1, 0, 0, 1,
+        0, 0, 0, 2, 1, 1, 0, 1, 2, 0, 1, 1, 1, 1, 0, 0, 2, 2, 1, 0, 1, 1, 2, 1,
+        0, 0, 2, 0, 0, 0, 1, 1, 1, 1, 0, 2, 0, 1, 1, 0, 1, 2, 1, 2, 2, 2, 0, 1,
+        2, 0, 2, 1, 1, 0, 1, 0, 1, 0, 0, 2, 1, 1, 1, 2, 0, 0, 2, 0, 1, 0, 1, 0,
+        2, 2, 0, 0, 1, 0, 2, 1, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 1, 0, 2, 0, 0, 2,
+        2, 0, 2, 1, 0, 1, 0, 1, 1, 0, 2, 0, 1, 1, 1, 1, 1, 0, 2, 1, 0, 0, 1, 1,
+        0, 0, 0, 1, 2, 2, 0, 1, 0, 2, 0, 2, 2, 0, 2, 2, 2, 1, 0, 2, 2, 2, 1, 1,
+        1, 2, 0, 2, 1, 1, 2, 0, 2, 1, 1, 1, 2, 1, 2, 1, 0, 1, 2, 1, 0, 0, 0, 2,
+        2, 2, 2, 0, 0, 1, 2, 2, 2, 1, 0, 2, 2, 0, 1, 2, 1, 1, 1, 2, 0, 0, 1, 1,
+        2, 2, 0, 2, 2, 0, 0, 1, 0, 0, 0, 2, 1, 2, 0, 2, 0, 1, 1, 0, 2, 0, 2, 0,
+        0, 1, 0, 0, 1, 2, 0, 1, 0, 2, 0, 2, 1, 2, 0, 0, 2, 2, 2, 0, 2, 1, 0, 0,
+        0, 0, 1, 1, 1, 0, 0, 2, 1, 0, 1, 1, 2, 1, 2, 0, 1, 1, 1, 1, 1, 1, 1, 0,
+        0, 2, 2, 2, 0, 2, 0, 2, 1, 2, 0, 2, 0, 2, 2, 1, 1, 0, 1, 0, 0, 0, 0, 2,
+        0, 2, 1, 0, 2, 0, 0, 2, 0, 0, 1, 0, 1, 2, 2, 2, 0, 2, 2, 2, 2, 0, 1, 2,
+        2, 2, 0, 0, 1, 1, 1, 2, 2, 1, 1, 1, 1])
+03/10/2020 18:52:03 - INFO - __main__ -   ***** Running evaluation  *****
+03/10/2020 18:52:03 - INFO - __main__ -     Num examples = 997
+03/10/2020 18:52:03 - INFO - __main__ -     Batch size = 16
+Evaluating:   0%|          | 0/63 [00:00<?, ?it/s]Evaluating:   2%|▏         | 1/63 [00:04<04:45,  4.60s/it]Evaluating:   3%|▎         | 2/63 [00:09<04:41,  4.62s/it]Evaluating:   5%|▍         | 3/63 [00:13<04:37,  4.62s/it]Evaluating:   6%|▋         | 4/63 [00:18<04:33,  4.64s/it]Evaluating:   8%|▊         | 5/63 [00:23<04:29,  4.65s/it]Evaluating:  10%|▉         | 6/63 [00:27<04:26,  4.67s/it]Evaluating:  11%|█         | 7/63 [00:32<04:22,  4.68s/it]Evaluating:  13%|█▎        | 8/63 [00:37<04:18,  4.70s/it]Evaluating:  14%|█▍        | 9/63 [00:42<04:15,  4.72s/it]Evaluating:  16%|█▌        | 10/63 [00:46<04:11,  4.74s/it]Evaluating:  17%|█▋        | 11/63 [00:51<04:06,  4.74s/it]Evaluating:  19%|█▉        | 12/63 [00:56<04:01,  4.74s/it]Evaluating:  21%|██        | 13/63 [01:01<03:55,  4.71s/it]Evaluating:  22%|██▏       | 14/63 [01:05<03:51,  4.72s/it]Evaluating:  24%|██▍       | 15/63 [01:10<03:46,  4.73s/it]Evaluating:  25%|██▌       | 16/63 [01:15<03:42,  4.73s/it]Evaluating:  27%|██▋       | 17/63 [01:20<03:37,  4.74s/it]Evaluating:  29%|██▊       | 18/63 [01:24<03:33,  4.74s/it]Evaluating:  30%|███       | 19/63 [01:29<03:29,  4.76s/it]Evaluating:  32%|███▏      | 20/63 [01:34<03:25,  4.78s/it]Evaluating:  33%|███▎      | 21/63 [01:39<03:21,  4.80s/it]Evaluating:  35%|███▍      | 22/63 [01:44<03:17,  4.81s/it]Evaluating:  37%|███▋      | 23/63 [01:48<03:12,  4.82s/it]Evaluating:  38%|███▊      | 24/63 [01:53<03:07,  4.81s/it]Evaluating:  40%|███▉      | 25/63 [01:58<03:02,  4.80s/it]Evaluating:  41%|████▏     | 26/63 [02:03<02:56,  4.78s/it]Evaluating:  43%|████▎     | 27/63 [02:07<02:50,  4.75s/it]Evaluating:  44%|████▍     | 28/63 [02:12<02:46,  4.75s/it]Evaluating:  46%|████▌     | 29/63 [02:17<02:42,  4.77s/it]Evaluating:  48%|████▊     | 30/63 [02:22<02:37,  4.78s/it]Evaluating:  49%|████▉     | 31/63 [02:27<02:32,  4.76s/it]Evaluating:  51%|█████     | 32/63 [02:31<02:28,  4.79s/it]Evaluating:  52%|█████▏    | 33/63 [02:36<02:23,  4.78s/it]Evaluating:  54%|█████▍    | 34/63 [02:41<02:17,  4.75s/it]Evaluating:  56%|█████▌    | 35/63 [02:46<02:13,  4.75s/it]Evaluating:  57%|█████▋    | 36/63 [02:50<02:08,  4.76s/it]Evaluating:  59%|█████▊    | 37/63 [02:55<02:04,  4.78s/it]Evaluating:  60%|██████    | 38/63 [03:00<01:59,  4.80s/it]Evaluating:  62%|██████▏   | 39/63 [03:05<01:55,  4.81s/it]Evaluating:  63%|██████▎   | 40/63 [03:10<01:50,  4.81s/it]Evaluating:  65%|██████▌   | 41/63 [03:15<01:46,  4.82s/it]Evaluating:  67%|██████▋   | 42/63 [03:19<01:40,  4.81s/it]Evaluating:  68%|██████▊   | 43/63 [03:24<01:36,  4.85s/it]Evaluating:  70%|██████▉   | 44/63 [03:29<01:32,  4.85s/it]Evaluating:  71%|███████▏  | 45/63 [03:34<01:26,  4.83s/it]Evaluating:  73%|███████▎  | 46/63 [03:39<01:21,  4.82s/it]Evaluating:  75%|███████▍  | 47/63 [03:43<01:16,  4.81s/it]Evaluating:  76%|███████▌  | 48/63 [03:48<01:12,  4.81s/it]Evaluating:  78%|███████▊  | 49/63 [03:53<01:07,  4.81s/it]Evaluating:  79%|███████▉  | 50/63 [03:58<01:02,  4.81s/it]Evaluating:  81%|████████  | 51/63 [04:03<00:57,  4.81s/it]Evaluating:  83%|████████▎ | 52/63 [04:07<00:52,  4.80s/it]Evaluating:  84%|████████▍ | 53/63 [04:12<00:47,  4.80s/it]Evaluating:  86%|████████▌ | 54/63 [04:17<00:43,  4.78s/it]Evaluating:  87%|████████▋ | 55/63 [04:22<00:38,  4.77s/it]Evaluating:  89%|████████▉ | 56/63 [04:27<00:33,  4.78s/it]Evaluating:  90%|█████████ | 57/63 [04:31<00:28,  4.80s/it]Evaluating:  92%|█████████▏| 58/63 [04:36<00:23,  4.78s/it]Evaluating:  94%|█████████▎| 59/63 [04:41<00:19,  4.79s/it]Evaluating:  95%|█████████▌| 60/63 [04:46<00:14,  4.77s/it]Evaluating:  97%|█████████▋| 61/63 [04:50<00:09,  4.77s/it]Evaluating:  98%|█████████▊| 62/63 [04:55<00:04,  4.77s/it]Evaluating: 100%|██████████| 63/63 [04:57<00:00,  3.77s/it]Evaluating: 100%|██████████| 63/63 [04:57<00:00,  4.72s/it]
+03/10/2020 18:57:00 - WARNING - root -   [2 2 1 1 0 1 2 0 2 2 0 2 0 2 0 1 1 2 1 1 1 2 1 2 2 0 0 1 0 0 0 1 0 1 1 0 0
+ 1 2 1 2 0 1 1 1 0 1 1 2 2 2 2 1 0 2 2 2 2 1 0 1 2 0 1 0 1 2 2 1 0 2 1 1 0
+ 0 2 1 1 0 0 1 1 0 1 2 2 1 2 0 0 1 0 2 0 1 0 1 0 0 0 0 1 0 0 0 2 1 1 2 2 1
+ 1 1 2 0 2 0 2 0 2 1 1 2 2 1 2 0 2 0 0 0 1 1 2 2 1 0 1 1 0 1 1 0 1 1 1 1 2
+ 0 1 2 2 1 1 0 1 1 2 0 1 1 0 0 2 2 0 1 1 1 1 0 2 2 0 0 1 0 0 0 1 2 1 2 1 0
+ 0 2 0 2 0 1 1 1 2 1 0 2 2 0 1 1 2 2 2 2 1 1 2 2 2 2 0 2 1 2 1 1 2 0 2 1 0
+ 2 2 2 2 2 0 0 0 2 1 2 2 1 0 0 2 2 0 1 1 2 0 0 2 0 1 1 0 0 0 0 0 1 1 2 0 0
+ 2 2 1 0 0 0 0 1 2 0 0 2 0 0 1 2 1 2 1 0 0 2 0 0 1 1 2 0 0 0 2 2 1 0 0 1 2
+ 0 2 2 0 1 2 1 0 1 2 1 2 1 2 2 0 2 1 0 0 0 1 0 0 1 0 2 0 1 1 1 2 2 2 2 2 0
+ 2 0 0 0 2 1 0 1 0 0 1 2 2 1 2 1 0 2 1 2 0 1 2 1 1 1 0 0 2 2 2 1 1 1 2 0 0
+ 2 2 0 2 0 2 1 2 2 1 1 1 2 0 1 1 1 2 2 2 2 1 0 2 0 2 0 2 1 2 1 2 0 0 0 2 1
+ 2 2 1 1 0 2 2 2 2 0 0 2 2 0 0 0 0 2 1 1 0 2 2 1 1 0 2 1 0 1 1 0 1 0 2 0 1
+ 1 1 2 2 0 2 2 1 2 2 1 1 0 0 1 0 0 1 2 0 0 2 0 1 1 1 2 1 0 1 2 1 1 0 1 1 2
+ 0 2 1 0 2 2 0 0 1 0 2 0 0 0 2 2 2 1 0 2 0 2 2 2 1 2 1 1 2 0 2 2 1 1 0 1 0
+ 0 0 0 2 2 2 2 0 1 1 1 0 1 1 0 2 0 2 2 1 0 0 2 2 0 0 0 2 0 0 1 0 2 0 1 2 0
+ 1 1 0 2 2 0 1 1 2 2 2 2 1 0 2 0 2 1 0 1 0 2 1 2 0 2 0 0 0 0 0 0 1 1 1 0 1
+ 2 1 2 1 2 2 2 0 2 2 0 1 1 1 0 2 1 1 1 0 1 1 1 2 0 0 1 0 0 1 2 1 2 2 2 1 0
+ 2 2 1 2 0 0 2 1 1 2 1 0 0 1 2 2 2 2 1 1 0 0 0 0 1 0 0 0 1 0 0 0 1 0 2 0 1
+ 1 0 1 0 0 1 0 0 0 2 1 1 0 1 2 0 1 1 1 1 0 0 2 2 1 0 1 1 2 1 0 0 2 0 0 0 1
+ 1 1 1 0 2 0 1 1 0 1 2 1 2 2 2 0 1 2 0 2 1 1 0 1 0 1 0 0 2 1 1 1 2 0 0 2 0
+ 1 0 1 0 2 2 0 0 1 0 2 1 2 2 2 0 1 0 2 0 2 0 1 0 2 0 0 2 2 0 2 1 0 1 0 1 1
+ 0 2 0 1 1 1 1 1 0 2 1 0 0 1 1 0 0 0 1 2 2 0 1 0 2 0 2 2 0 2 2 2 1 0 2 2 2
+ 1 1 1 2 0 2 1 1 2 0 2 1 1 1 2 1 2 1 0 1 2 1 0 0 0 2 2 2 2 0 0 1 2 2 2 1 0
+ 2 2 0 1 2 1 1 1 2 0 0 1 1 2 2 0 2 2 0 0 1 0 0 0 2 1 2 0 2 0 1 1 0 2 0 2 0
+ 0 1 0 0 1 2 0 1 0 2 0 2 1 2 0 0 2 2 2 0 2 1 0 0 0 0 1 1 1 0 0 2 1 0 1 1 2
+ 1 2 0 1 1 1 1 1 1 1 0 0 2 2 2 0 2 0 2 1 2 0 2 0 2 2 1 1 0 1 0 0 0 0 2 0 2
+ 1 0 2 0 0 2 0 0 1 0 1 2 2 2 0 2 2 2 2 0 1 2 2 2 0 0 1 1 1 2 2 1 1 1 1]
+03/10/2020 18:57:00 - WARNING - root -   [2 2 1 1 0 1 2 0 2 2 0 2 0 2 2 1 1 2 1 1 1 2 1 1 2 1 0 1 0 0 0 1 0 1 1 0 0
+ 0 2 1 2 0 1 1 1 0 1 1 2 2 2 2 1 0 2 1 2 2 0 0 1 2 0 1 0 1 2 2 1 0 2 1 1 0
+ 0 2 1 1 0 1 1 1 0 1 2 2 1 2 0 0 1 0 2 1 1 0 1 0 0 0 0 1 0 0 0 2 1 1 2 2 1
+ 1 1 2 0 2 0 2 0 2 1 1 2 2 1 2 1 2 0 0 0 1 1 2 2 1 1 1 1 0 1 1 0 1 1 1 1 2
+ 2 1 2 2 1 1 1 1 1 2 0 0 1 0 0 2 2 0 0 1 1 1 0 2 2 0 1 1 0 0 0 1 2 0 2 1 1
+ 0 2 0 2 0 2 1 1 2 1 0 2 2 0 1 1 2 2 2 2 1 1 2 2 2 2 0 0 1 2 1 1 2 0 2 1 0
+ 2 2 2 2 2 0 0 0 2 1 2 2 1 0 2 2 2 0 1 1 2 0 0 2 0 1 2 0 1 0 0 0 1 1 2 0 0
+ 2 2 1 0 0 0 0 1 2 1 0 2 2 0 1 2 1 2 1 0 0 2 0 0 1 0 2 0 0 0 2 2 1 0 0 1 2
+ 0 2 2 0 1 2 1 0 1 2 1 2 1 2 2 0 2 1 0 2 2 1 0 0 1 0 2 0 1 1 0 2 2 2 2 2 0
+ 2 1 0 1 2 2 0 1 2 0 1 0 2 1 2 2 2 2 1 2 0 1 2 1 1 1 0 0 2 1 2 1 1 2 2 0 0
+ 2 2 0 2 0 2 1 2 2 1 1 1 2 0 1 0 1 2 1 2 2 1 0 2 0 2 0 2 1 2 2 2 2 0 0 2 0
+ 2 1 1 1 0 2 2 2 2 0 0 2 2 0 0 0 0 2 1 1 0 2 2 1 1 0 2 1 0 1 2 0 1 0 2 0 1
+ 0 1 2 2 0 2 2 1 0 2 1 1 0 0 1 0 0 1 2 0 0 2 0 1 1 1 2 1 0 1 2 1 1 0 1 1 2
+ 0 2 1 0 2 2 0 0 1 0 2 2 0 0 2 2 2 1 2 2 0 2 2 2 1 2 1 1 2 0 2 2 1 1 0 1 0
+ 0 0 0 2 2 2 2 0 1 1 1 0 1 1 0 2 0 2 2 1 0 0 1 2 0 0 0 2 0 0 1 1 2 0 1 2 0
+ 1 1 0 2 2 0 1 1 2 2 2 2 1 0 2 0 2 1 0 1 0 2 1 0 0 2 0 0 0 0 1 1 1 1 2 2 1
+ 2 2 2 1 2 2 2 0 2 2 0 1 1 1 0 2 1 1 2 1 1 1 1 2 0 0 1 0 1 1 2 1 2 2 2 1 0
+ 2 1 1 2 0 0 2 1 1 2 1 0 0 1 2 2 2 2 1 1 0 0 1 0 1 0 0 0 1 0 0 0 1 0 2 0 1
+ 1 2 1 0 1 1 0 0 0 2 1 1 0 1 2 0 1 1 1 1 0 0 2 2 1 0 1 1 2 1 0 0 2 0 0 0 1
+ 1 1 1 0 2 0 1 2 0 1 2 1 2 2 2 0 1 2 0 2 1 1 0 1 0 1 0 0 2 1 1 1 2 0 0 2 0
+ 1 0 1 0 0 2 0 0 1 0 2 2 2 2 0 0 0 0 2 0 2 0 1 0 2 0 0 2 2 0 2 1 1 1 0 0 1
+ 1 2 0 1 1 1 1 1 0 2 1 0 0 1 1 0 0 0 1 2 0 0 1 0 2 0 2 2 0 2 2 2 1 0 2 2 2
+ 0 1 1 2 0 2 1 1 2 0 2 1 1 1 2 1 2 1 2 1 0 1 0 0 0 2 1 1 2 0 0 1 2 2 2 1 0
+ 2 2 0 1 2 1 1 1 2 0 2 1 1 2 2 0 2 2 0 0 1 0 0 2 2 1 2 0 2 0 1 1 0 2 0 2 0
+ 1 1 0 0 1 2 0 1 0 2 0 0 1 2 0 0 2 2 2 0 2 2 0 0 0 0 1 1 1 0 0 2 1 0 1 1 2
+ 1 2 0 1 1 1 1 1 1 1 0 0 2 2 2 0 1 0 2 1 0 0 2 0 2 2 1 1 0 1 0 2 0 0 2 0 2
+ 1 0 2 0 0 2 0 0 1 0 1 2 2 2 0 0 2 2 2 0 0 2 2 2 0 0 1 1 1 2 2 1 1 1 0]
+03/10/2020 18:57:00 - INFO - __main__ -   ***** Eval results  is test:False *****
+03/10/2020 18:57:00 - INFO - __main__ -     eval_acc = 0.9117352056168505
+03/10/2020 18:57:00 - INFO - __main__ -     eval_loss = 0.2950757203830613
+03/10/2020 18:57:00 - INFO - __main__ -     f1 = 0.9117352056168505

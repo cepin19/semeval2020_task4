@@ -1,0 +1,192 @@
+03/10/2020 13:08:58 - WARNING - __main__ -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, 16-bits training: True
+03/10/2020 13:08:58 - WARNING - root -   NUM LABELS: 3
+03/10/2020 13:08:58 - WARNING - root -   <class 'transformers.configuration_albert.AlbertConfig'>
+03/10/2020 13:08:58 - INFO - transformers.configuration_utils -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-config.json from cache at /home/ijon/.cache/torch/transformers/b3eed512e24335a76694282193217608ead013caa55330de3ff236d1f5695e6c.58c1d03602d9707494c5ff902d07817fd2b4ed6a589b2b062364aed4ae3d3765
+03/10/2020 13:08:58 - INFO - transformers.configuration_utils -   Model config {
+  "architectures": [
+    "AlbertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0,
+  "down_scale_factor": 1,
+  "embedding_size": 128,
+  "finetuning_task": "task4b",
+  "gap_size": 0,
+  "hidden_act": "gelu_new",
+  "hidden_dropout_prob": 0,
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "inner_group_num": 1,
+  "intermediate_size": 16384,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "layers_to_keep": [],
+  "max_position_embeddings": 512,
+  "net_structure_type": 0,
+  "num_attention_heads": 64,
+  "num_hidden_groups": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 3,
+  "num_memory_blocks": 0,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30000
+}
+
+03/10/2020 13:08:59 - INFO - transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-spiece.model from cache at /home/ijon/.cache/torch/transformers/094b3b4d4ab5e624ae6ba8654d88cdb99b2d5a813b323295c37d58680a1c4127.c81d4deb77aec08ce575b7a39a989a79dd54f321bfb82c2b54dd35f52f8182cf
+03/10/2020 13:08:59 - WARNING - transformers.modeling_utils -   There is currently an upstream reproducibility issue with ALBERT v2 models. Please see https://github.com/google-research/google-research/issues/119 for more information.
+03/10/2020 13:08:59 - INFO - transformers.modeling_utils -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/albert-xxlarge-v2-pytorch_model.bin from cache at /home/ijon/.cache/torch/transformers/c8f990f22da3ddf461b7e0d30a079014b20ad2859f352a9f18421485f63a69e7.9ac42d6fae7d18840d74eaf2a6d817700ffdd5af9ae1a12c3e96e239e23f76f4
+03/10/2020 13:09:06 - INFO - transformers.modeling_utils -   Weights of AlbertForMultipleChoice not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+03/10/2020 13:09:06 - INFO - transformers.modeling_utils -   Weights from pretrained model not used in AlbertForMultipleChoice: ['predictions.bias', 'predictions.LayerNorm.weight', 'predictions.LayerNorm.bias', 'predictions.dense.weight', 'predictions.dense.bias', 'predictions.decoder.weight', 'predictions.decoder.bias']
+03/10/2020 13:09:08 - INFO - __main__ -   Training/evaluation parameters Namespace(adam_epsilon=1e-08, cache_dir='', config_name='', data_dir='/mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB', device=device(type='cuda'), do_eval=True, do_lower_case=True, do_test=False, do_train=True, eval_all_checkpoints=True, evaluate_during_training=True, fp16=True, fp16_opt_level='O1', gradient_accumulation_steps=32, learning_rate=7e-06, local_rank=-1, logging_steps=50, max_grad_norm=1.0, max_seq_length=165, max_steps=-1, model_name_or_path='albert-xxlarge-v2', model_type='albert', n_gpu=1, no_cuda=False, num_train_epochs=6.0, output_dir='models_bert/albert_4b_lr0.7_acc32', overwrite_cache=True, overwrite_output_dir=True, per_gpu_eval_batch_size=2, per_gpu_train_batch_size=2, save_steps=50, seed=543, server_ip='', server_port='', task_name='task4b', tokenizer_name='', warmup_steps=0, weight_decay=0.0)
+03/10/2020 13:09:08 - INFO - __main__ -   Creating features from dataset file at /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   LOOKING AT /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB train
+03/10/2020 13:09:08 - INFO - __main__ -   Training number: 10000
+convert examples to features: 0it [00:00, ?it/s]03/10/2020 13:09:08 - INFO - utils_multiple_choice -   Writing example 0 of 10000
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   *** Example ***
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   race_id: 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   choice: 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   input_ids: 2 24 8336 2987 10384 27 33 18796 9 3 2987 10384 25 951 2673 2987 9 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   label: 1
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   choice: 1
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   input_ids: 2 24 8336 2987 10384 27 33 18796 9 3 2987 10384 1437 22 38 3576 254 27 18796 9 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   label: 1
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   choice: 2
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   input_ids: 2 24 8336 2987 10384 27 33 18796 9 3 2987 10384 25 19087 100 42 11318 32 27 14 859 9 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   label: 1
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   *** Example ***
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   race_id: 1
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   choice: 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   input_ids: 2 24 9553 4037 9 3 4037 10384 50 253 12892 1084 17 4820 266 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   label: 1
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   choice: 1
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   input_ids: 2 24 9553 4037 9 3 4037 92 52 44 5922 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   label: 1
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   choice: 2
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   input_ids: 2 24 9553 4037 9 3 4037 1967 2749 21 585 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+03/10/2020 13:09:08 - INFO - utils_multiple_choice -   label: 1
+convert examples to features: 90it [00:00, 892.90it/s]convert examples to features: 199it [00:00, 942.96it/s]convert examples to features: 320it [00:00, 1008.62it/s]convert examples to features: 439it [00:00, 1055.20it/s]convert examples to features: 555it [00:00, 1083.31it/s]convert examples to features: 670it [00:00, 1100.80it/s]convert examples to features: 789it [00:00, 1126.10it/s]convert examples to features: 909it [00:00, 1147.11it/s]convert examples to features: 1031it [00:00, 1165.92it/s]convert examples to features: 1145it [00:01, 1148.11it/s]convert examples to features: 1258it [00:01, 957.63it/s] convert examples to features: 1358it [00:01, 957.05it/s]convert examples to features: 1464it [00:01, 985.59it/s]convert examples to features: 1576it [00:01, 1021.62it/s]convert examples to features: 1690it [00:01, 1052.87it/s]convert examples to features: 1797it [00:01, 1056.78it/s]convert examples to features: 1911it [00:01, 1080.14it/s]convert examples to features: 2022it [00:01, 1088.30it/s]convert examples to features: 2137it [00:01, 1104.62it/s]convert examples to features: 2250it [00:02, 1109.19it/s]convert examples to features: 2362it [00:02, 1097.67it/s]convert examples to features: 2477it [00:02, 1109.88it/s]convert examples to features: 2589it [00:02, 1063.76it/s]convert examples to features: 2696it [00:02, 1003.51it/s]convert examples to features: 2798it [00:02, 975.37it/s] convert examples to features: 2897it [00:02, 939.56it/s]convert examples to features: 2992it [00:02, 912.85it/s]convert examples to features: 3085it [00:02, 912.29it/s]convert examples to features: 3177it [00:03, 906.59it/s]convert examples to features: 3269it [00:03, 906.18it/s]convert examples to features: 3360it [00:03, 906.22it/s]convert examples to features: 3451it [00:03, 893.17it/s]convert examples to features: 3545it [00:03, 906.44it/s]convert examples to features: 3661it [00:03, 968.71it/s]convert examples to features: 3779it [00:03, 1021.67it/s]convert examples to features: 3896it [00:03, 1061.50it/s]convert examples to features: 4008it [00:03, 1076.51it/s]convert examples to features: 4126it [00:03, 1104.32it/s]convert examples to features: 4245it [00:04, 1128.54it/s]convert examples to features: 4362it [00:04, 1140.53it/s]convert examples to features: 4481it [00:04, 1153.15it/s]convert examples to features: 4597it [00:04, 1143.39it/s]convert examples to features: 4712it [00:04, 1140.79it/s]convert examples to features: 4827it [00:04, 1112.82it/s]convert examples to features: 4939it [00:04, 1071.64it/s]convert examples to features: 5047it [00:04, 1004.47it/s]convert examples to features: 5149it [00:04, 947.22it/s] convert examples to features: 5257it [00:05, 982.72it/s]convert examples to features: 5373it [00:05, 1028.20it/s]convert examples to features: 5487it [00:05, 1058.40it/s]convert examples to features: 5603it [00:05, 1086.19it/s]convert examples to features: 5713it [00:05, 1070.50it/s]convert examples to features: 5831it [00:05, 1099.83it/s]convert examples to features: 5942it [00:05, 1014.94it/s]convert examples to features: 6053it [00:05, 1041.51it/s]convert examples to features: 6174it [00:05, 1086.66it/s]convert examples to features: 6290it [00:05, 1107.64it/s]convert examples to features: 6422it [00:06, 1161.31it/s]convert examples to features: 6543it [00:06, 1173.30it/s]convert examples to features: 6670it [00:06, 1198.66it/s]convert examples to features: 6791it [00:06, 1132.35it/s]convert examples to features: 6906it [00:06, 1085.19it/s]convert examples to features: 7016it [00:06, 1080.48it/s]convert examples to features: 7131it [00:06, 1099.03it/s]convert examples to features: 7246it [00:06, 1113.45it/s]convert examples to features: 7358it [00:07, 873.15it/s] convert examples to features: 7469it [00:07, 932.70it/s]convert examples to features: 7579it [00:07, 975.06it/s]convert examples to features: 7691it [00:07, 1013.12it/s]convert examples to features: 7797it [00:07, 1023.81it/s]convert examples to features: 7903it [00:07, 1003.94it/s]convert examples to features: 8010it [00:07, 1021.66it/s]convert examples to features: 8124it [00:07, 1053.76it/s]convert examples to features: 8238it [00:07, 1075.77it/s]convert examples to features: 8347it [00:08, 806.03it/s] convert examples to features: 8439it [00:08, 828.02it/s]convert examples to features: 8530it [00:08, 830.04it/s]convert examples to features: 8619it [00:08, 836.14it/s]convert examples to features: 8707it [00:08, 838.81it/s]convert examples to features: 8794it [00:08, 835.85it/s]convert examples to features: 8884it [00:08, 851.93it/s]convert examples to features: 8971it [00:08, 856.49it/s]convert examples to features: 9058it [00:08, 835.15it/s]convert examples to features: 9143it [00:08, 838.33it/s]convert examples to features: 9228it [00:09, 820.27it/s]convert examples to features: 9318it [00:09, 840.51it/s]convert examples to features: 9405it [00:09, 845.94it/s]convert examples to features: 9492it [00:09, 850.32it/s]convert examples to features: 9578it [00:09, 841.95it/s]convert examples to features: 9664it [00:09, 844.11it/s]convert examples to features: 9750it [00:09, 846.57it/s]convert examples to features: 9836it [00:09, 849.35it/s]convert examples to features: 9922it [00:09, 836.69it/s]convert examples to features: 10000it [00:10, 999.87it/s]
+03/10/2020 13:09:18 - INFO - __main__ -   Saving features into cached file /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/subtaskB/cached_train_albert-xxlarge-v2_165_task4b
+03/10/2020 13:09:28 - WARNING - root -   All label ids:
+03/10/2020 13:09:28 - WARNING - root -   tensor([1, 1, 0,  ..., 0, 2, 2])
+03/10/2020 13:09:30 - INFO - __main__ -   ***** Running training *****
+03/10/2020 13:09:30 - INFO - __main__ -     Num examples = 10000
+03/10/2020 13:09:30 - INFO - __main__ -     Num Epochs = 6
+03/10/2020 13:09:30 - INFO - __main__ -     Instantaneous batch size per GPU = 2
+03/10/2020 13:09:30 - INFO - __main__ -     Total train batch size (w. parallel, distributed & accumulation) = 64
+03/10/2020 13:09:30 - INFO - __main__ -     Gradient Accumulation steps = 32
+03/10/2020 13:09:30 - INFO - __main__ -     Total optimization steps = 936
+Iteration:   0%|          | 0/5000 [00:00<?, ?it/s]
+Epoch:   0%|          | 0/6 [00:00<?, ?it/s][A
+
+Iteration:   0%|          | 0/5000 [00:00<?, ?it/s][A[A
+
+                                                   [A[A
+                                            [AIteration:   0%|          | 0/5000 [00:00<?, ?it/s]
+
+Iteration:   0%|          | 1/5000 [00:01<1:24:25,  1.01s/it][A
+Iteration:   0%|          | 2/5000 [00:01<1:20:28,  1.04it/s][A
+Iteration:   0%|          | 3/5000 [00:02<1:14:07,  1.12it/s][A
+Iteration:   0%|          | 4/5000 [00:03<1:09:43,  1.19it/s][A
+Iteration:   0%|          | 5/5000 [00:04<1:09:22,  1.20it/s][A
+Iteration:   0%|          | 6/5000 [00:04<1:06:24,  1.25it/s][A
+Iteration:   0%|          | 7/5000 [00:05<1:04:19,  1.29it/s][A
+Iteration:   0%|          | 8/5000 [00:06<1:02:52,  1.32it/s][A
+Iteration:   0%|          | 9/5000 [00:06<1:01:52,  1.34it/s][A
+Iteration:   0%|          | 10/5000 [00:07<1:01:11,  1.36it/s][A
+Iteration:   0%|          | 11/5000 [00:08<1:00:40,  1.37it/s][A
+Iteration:   0%|          | 12/5000 [00:09<1:00:18,  1.38it/s][A
+Iteration:   0%|          | 13/5000 [00:09<1:00:04,  1.38it/s][A
+Iteration:   0%|          | 14/5000 [00:10<59:54,  1.39it/s]  [A
+Iteration:   0%|          | 15/5000 [00:11<59:45,  1.39it/s][A
+Iteration:   0%|          | 16/5000 [00:11<59:40,  1.39it/s][A
+Iteration:   0%|          | 17/5000 [00:12<59:35,  1.39it/s][A
+Iteration:   0%|          | 18/5000 [00:13<59:32,  1.39it/s][A
+Iteration:   0%|          | 19/5000 [00:14<59:32,  1.39it/s][A
+Iteration:   0%|          | 20/5000 [00:14<59:28,  1.40it/s][A
+Iteration:   0%|          | 21/5000 [00:15<59:24,  1.40it/s][A
+Iteration:   0%|          | 22/5000 [00:16<59:27,  1.40it/s][A
+Iteration:   0%|          | 23/5000 [00:17<59:29,  1.39it/s][A
+Iteration:   0%|          | 24/5000 [00:17<59:29,  1.39it/s][A
+Iteration:   0%|          | 25/5000 [00:18<59:30,  1.39it/s][A
+Iteration:   1%|          | 26/5000 [00:19<59:31,  1.39it/s][A
+Iteration:   1%|          | 27/5000 [00:19<59:33,  1.39it/s][A
+Iteration:   1%|          | 28/5000 [00:20<59:33,  1.39it/s][A
+Iteration:   1%|          | 29/5000 [00:21<59:34,  1.39it/s][A
+Iteration:   1%|          | 30/5000 [00:22<59:34,  1.39it/s][A
+Iteration:   1%|          | 31/5000 [00:22<59:34,  1.39it/s][A/home/ijon/.local/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:91: UserWarning: Seems like `optimizer.step()` has been overridden after learning rate scheduler initialization. Please, make sure to call `optimizer.step()` before `lr_scheduler.step()`. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+
+Iteration:   1%|          | 32/5000 [00:23<1:00:49,  1.36it/s][A['A', 'B', 'C']
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Warning:  multi_tensor_applier fused unscale kernel is unavailable, possibly because apex was installed without --cuda_ext --cpp_ext. Using Python fallback.  Original ImportError was: ModuleNotFoundError("No module named 'amp_C'")
+Traceback (most recent call last):
+  File "./examples/run_semeval_task4b.py", line 615, in <module>
+    main()
+  File "./examples/run_semeval_task4b.py", line 546, in main
+    global_step, tr_loss, best_steps = train(args, train_dataset, model, tokenizer)
+  File "./examples/run_semeval_task4b.py", line 178, in train
+    outputs = model(**inputs)
+  File "/home/ijon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_albert.py", line 858, in forward
+    inputs_embeds=inputs_embeds)
+  File "/home/ijon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_albert.py", line 539, in forward
+    head_mask=head_mask)
+  File "/home/ijon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_albert.py", line 331, in forward
+    layer_group_output = self.albert_layer_groups[group_idx](hidden_states, attention_mask, head_mask[group_idx*layers_per_group:(group_idx+1)*layers_per_group])  
+  File "/home/ijon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_albert.py", line 286, in forward
+    layer_output = albert_layer(hidden_states, attention_mask, head_mask[layer_index])
+  File "/home/ijon/.local/lib/python3.7/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_albert.py", line 266, in forward
+    ffn_output = self.activation(ffn_output)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_bert.py", line 134, in gelu_new
+    return 0.5 * x * (1 + torch.tanh(math.sqrt(2 / math.pi) * (x + 0.044715 * torch.pow(x, 3))))
+  File "/home/ijon/miniconda3/envs/pytorch/lib/python3.7/site-packages/apex-0.1-py3.7.egg/apex/amp/wrap.py", line 27, in wrapper
+    kwargs)
+  File "/home/ijon/miniconda3/envs/pytorch/lib/python3.7/site-packages/apex-0.1-py3.7.egg/apex/amp/utils.py", line 81, in casted_args
+    new_args.append(cast_fn(x))
+  File "/home/ijon/miniconda3/envs/pytorch/lib/python3.7/site-packages/apex-0.1-py3.7.egg/apex/amp/utils.py", line 74, in maybe_float
+    return x.float()
+RuntimeError: CUDA out of memory. Tried to allocate 62.00 MiB (GPU 0; 10.76 GiB total capacity; 9.71 GiB already allocated; 18.75 MiB free; 178.85 MiB cached)

@@ -1,0 +1,1027 @@
+[]
+0.5042058386937159
+['model_eval/eval_results_pred_trial_nonaug2_850.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy']
+0.9554675903018308
+['model_eval/eval_results_pred_trial_nonaug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug300.npy']
+0.9559623948540327
+['model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9554675903018308
+['model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9534883720930233
+['model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9490351311232064
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9599208312716477
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9609104403760514
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9599208312716477
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9559623948540327
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9574468085106383
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9609104403760514
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.954477981197427
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9594260267194458
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9564571994062345
+['model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9554675903018308
+['model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9574468085106383
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9599208312716477
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9609104403760514
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9599208312716477
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9609104403760514
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9614052449282533
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9623948540326571
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9698169223156853
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9693221177634834
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9619000494804553
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9693221177634834
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9688273132112816
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9693221177634834
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9638792676892627
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.962889658584859
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9633844631370608
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.9648688767936665
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9653636813458684
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy']
+0.966848095002474
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9658584858980702
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9663532904502722
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9678377041068777
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9683325086590797
+['model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9643740722414647
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug2_400.npy', 'model_eval/eval_results_pred_trial_nonaug300.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_nonaug4_350.npy', 'model_eval/eval_results_pred_trail_aug2_400.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9673428995546759
+best ensemble:
+['model_eval/eval_results_pred_trial_nonaug2_850.npy', 'model_eval/eval_results_pred_trial_aug4_400.npy', 'model_eval/eval_results_pred_trial_nonaug400.npy', 'model_eval/eval_results_pred_trial_aug4_1100.npy', 'model_eval/eval_results_pred_trial_cz2_500.npy']
+0.9698169223156853

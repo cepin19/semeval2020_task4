@@ -1,0 +1,7 @@
+12/17/2019 07:40:27 - WARNING - __main__ -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, 16-bits training: False
+Traceback (most recent call last):
+  File "./examples/run_multiple_choice.py", line 566, in <module>
+    main()
+  File "./examples/run_multiple_choice.py", line 473, in main
+    config_class, model_class, tokenizer_class = MODEL_CLASSES[args.model_type]
+KeyError: 'albert'

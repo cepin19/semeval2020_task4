@@ -1,0 +1,9 @@
+bash train4a_new_dev_args.sh 1 > train4a_albert_lr1e-5_batch48_run2.log 2>&1
+bash train4a_new_dev_args.sh 12 > train4a_albert_lr1e-5_batch48_run3.log 2>&1
+bash train4a_new_dev_args.sh 123 > train4a_albert_lr1e-5_batch48_run4.log 2>&1
+bash train4a_new_dev_args.sh 1234 > train4a_albert_lr1e-5_batch48_run5.log 2>&1
+bash train4a_new_dev_args.sh 12345 > train4a_albert_lr1e-5_batch48_run6.log 2>&1
+bash train4a_new_dev_args.sh 123456 > train4a_albert_lr1e-5_batch48_run7.log 2>&1
+bash train4a_new_dev_args.sh 1234567 > train4a_albert_lr1e-5_batch48_run8.log 2>&1
+bash train4a_new_dev_args.sh 12345678 > train4a_albert_lr1e-5_batch48_run9.log 2>&1
+bash train4a_new_dev_args.sh 123456789 > train4a_albert_lr1e-5_batch48_run10.log 2>&1

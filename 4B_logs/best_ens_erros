@@ -1,0 +1,59 @@
+Example: 540,passing your driving license exams requires studying for your classes.,the driving license is useless for studying for your classes.,driving license exams needs to study for driving,You cannot drive into classes even if you have a driving license,B    Prediction:A
+Example: 1841,the lava was warm and soft,lava can destroy the warm and soft cake,lava is too hard to be soft,lava is too hot to be warm or soft,C    Prediction:B
+Example: 1888,Water is toxic and should not be consumed,Water cannot be swallowed,We should protect water from the toxicity,Water is important to remain healthy,C    Prediction:A
+Example: 610,Sunlight and water help cars grow.,Cars have already reached their full size.,Sun heats a car too much.,Cars are mad made.,C    Prediction:A
+Example: 465,The car parked here in the garage.,It is a one-car garage.,The car can't drive.,She cannot drive a car.,B    Prediction:A
+Example: 1930,There are nine planets in the solar system,Nine is a larger number than eight,Pluton is no longer a planet in the solar system,The solar system is compound by a number of determined planets,B    Prediction:C
+Example: 1838,you put bins in rubbish,Bins are the container where the rubbish can be put in,bins are not rubbish,you can find some bins and rubbishes on the street,A    Prediction:B
+Example: 1620,Tofu is a ufo substitute,Ufot is unhealthy,Tofu is real,Ufot is something I made up,C    Prediction:A
+Example: 1362,If you want to relax your mind then you must listen to music.,some people do not feel relax when listening to music,Relaxing music makes it easier for your mind to dance.,many things can help people relax,C    Prediction:B
+Example: 1143,She put the freezer in the microwave.,Freezers are full of frozen items.,Freezers are usually bigger than the microwaves,Microwave is a type of oven that cooks or heats food very quickly.,B    Prediction:C
+Example: 1212,Enemies celebrate on Valentine's day.,Valentine's day happens every year,Enemies hate each other,Valentine's day is for lovers,C    Prediction:B
+Example: 1497,A manicurist will remove your fingernails.,It is painful to remove fingernails.,Manicurists help you to protect your hand,Manicurists don't get paid if they remove fingernails.,A    Prediction:B
+Example: 211,He studied biology so he is a pilot,biology discover new species but pilots can fly airplanes,A pilot's work is to fly a plane,Airplanes aren't biological,B    Prediction:C
+Example: 636,"The remote control leads to a huge waste of time, as it has a direct correlation with the overuse of your fingertips.","The remote control determines nothing, the user however does.","The remote control uses your fingertips to dictate what program on television, correlates with your use of time.","The television and the remote control are both in a relationship with your fingertips and hate to waste time on entertainment, sports, and news.",A    Prediction:B
+Example: 1244,She put a room on her car,A room is quite bigger than a car,People usually don't put things on cars,A car can be in a room,A    Prediction:B
+Example: 1446,An apple can voice an opinion,An apple has no mouth,An apple has no legs while a person has two legs,An apple cannot speak,A    Prediction:C
+Example: 1831,The couple married and went for courtship.,Courtship comes before marriage.,Courtship is for judges.,There is nothing like courtship.,A    Prediction:C
+Example: 492,I screamed when I hit my foot against the pillow.,A pillow is used for sleep.,A pillow is soft.,You can hit your foot on things.,B    Prediction:A
+Example: 1678,Slides want to play on the kids.,kids have legs and like to run.,Slides can't play on kids.,slides are stationary and do not move.,B    Prediction:C
+Example: 992,school bus attends school early in the morning,school bus drops the kids to the school,school bus likes school in the morning,school bus are nonliving things,A    Prediction:C
+Example: 571,He drinks seawater,Drinking Seawater is bad for health,Drinking Seawater makes him a hulk,Seawater is too salty,C    Prediction:A
+Example: 415,Homestar Runner is Lazy and can't run,Homestar runner has no hands so therefore he cannot participate in sports,Homestar runners body is mostly legs and he runs everywhere,Homestar Runner doesn't exist so he cannot be an athlete,B    Prediction:C
+Example: 285,The hunter shot a scarecrow.,scarecrows are used to deceive animals,Scarecrows don't taste good,Scarecrows don't bleed.,A    Prediction:C
+Example: 982,Mike walked to Italy from Florida,Italy and Florida are both peninsulas,Florida is not in Italy,there's an ocean between Italy and Florida,C    Prediction:B
+Example: 501,They cook in the ocean.,The ocean water is too salty to cook,You can't cook while swimming in the ocean.,The ocean is too big for cooking,B    Prediction:A
+Example: 74,Stones are falling from the sky.,Stones are too big to fall from the sky,There is no stone in the sky,Clouds are not made up of stones,B    Prediction:A
+Example: 1769,cat watches tv,cat can walk around and t.v does not walk,cats can not watch t.v,cat relaxes in front of tv,C    Prediction:B
+Example: 1473,Shredded or diced lasagna is typical,A casserole is normally cut like a cake,Lasagna is not sliced like stir fry,Lasagna is a casserole,C    Prediction:B
+Example: 1941,She danced on the water.,Water is wet.,You cannot breathe underwater.,You cannot sit on the water.,C    Prediction:B
+Example: 1721,I will plant a big tree in my room,"Rooms are for people, not plants",Plants need to live on land. But not in the room,a room is too small for a tree to live in,C    Prediction:A
+Example: 1699,He drove the car into a house.,A garage is typically where cars are kept.,Garages are for cars and houses are for people.,A house cannot have a car in it.,A    Prediction:C
+Example: 660,"With her pillow, she went to the bathroom",Pillow is safe in the bathroom,Pillow is usually used while sleeping,Pillow is very small to bring inside of the bathroom,B    Prediction:C
+Example: 1353,the dog feed him,people take care of their dogs and feed them,dogs will feed on their own babies,dogs can play with people,A    Prediction:B
+Example: 1629,today I went to the Mars,No one has ever walked on the Mars,Mars is a star in the universe,The Mars is hot,B    Prediction:A
+Example: 229,He put the ice cream in the oven,Food should be defrosted before being put in the oven,Ice cream cannot be eaten by an oven,Ice cream needs to be cold,C    Prediction:A
+Example: 1494,the basketball loves to play Steven,Steven loves to eat unhealthy foods rather than playing basketball,Steven wants to play with his brother basketball game,Steven don't play basketball,B    Prediction:C
+Example: 573,a book is used for opening a door,books are usually made of paper while knobs are usually made of metal,a book is much bigger thank a knob,books can not be fitted to a door,B    Prediction:C
+Example: 448,He walked through the floor.,Gravity makes people down.,The floor was too thick.,The floor was too tall.,A    Prediction:B
+Example: 1875,Boxes are spheres,A cube is the shape of a box,cubes are like squares and spheres are like circles,a box cannot be both a cube and a sphere,A    Prediction:C
+Example: 1525,he walked in front of a car,the cars were waiting at the pedestrian light for him to cross the road,pedestrain has to wait until it is safe to cross the road,its hard to see a pedestrian at night if you have bad vision,A    Prediction:B
+Example: 162,He cooked a pan with the egg.,Pans are usually red while the egg is yellow.,A pan is used to cook food like eggs.,An egg cannot cook a pan.,B    Prediction:C
+Example: 519,The girl asked for a dinosaur instead of dessert.,Dinosaurs are extinct.,Dinosaurs were too large to cook for food.,We do not consider dinosaurs to be a food item.,C    Prediction:A
+Example: 935,table sugar is made from seawater,both seawater and table sugar is used for various purposes,seawater is salty in taste while sugar is sweet,table sugar can dissolve in seawater,B    Prediction:C
+Example: 109,The boy played fetch in his backyard with a fish.,Fish do not have lungs to breathe on land.,Fish lives in the pond in the backyard.,Fish is not as intelligent as the boy.,A    Prediction:B
+Example: 1274,socks are always worn on hands,Wearing socks keeps the feet dry and gloves are usually worn on hands.,socks can be worn on hands,socks are very comfortable to wear,A    Prediction:B
+Example: 1732,An apple can never be green.,Apples are always green and can not be another colour.,"Apples can be painted green, so they can be green.",Apples are either red or green so it is possible for an apple to be green if it is not red.,C    Prediction:A
+Example: 1714,fencing is a dangerous sport,the foil can take an eye,all fencing players use protection,you should wash your dirty hand before eating,B    Prediction:A
+Example: 129,The color of the grass is purple.,Eggplants are purple and the grass is not the same color as an eggplant.,Grass is not the same shape as eggplants,Chlorophyll absorbs blue and red light but does not produce purple pigment in grass.,A    Prediction:C
+Example: 1823,The woman made juice glass.,Glass is usually white while the apple is usually red.,Glass cannot become apple juice.,Glass is much harder than the apple.,C    Prediction:B
+Example: 1470,He put a pig in the fridge.,"Pigs live in barns, not in refrigerators.",Pigs is shorter than a fridge,the pig is living and can not be put in the fridge,C    Prediction:A
+Example: 262,glue is incohesive,glue is usually white,glue can make your hands stick together,glue will dry when exposed to oxygen,B    Prediction:C
+Example: 696,she is going to the park for cooking,cooking is not doing in the park,cooking also an enjoyment,cooking is not provided in the park,A    Prediction:C
+Example: 205,You go to a concert for the lectures.,People go to concerts to have fun.,Some people dance at concerts.,Music bands are on the stage at a concert,C    Prediction:A
+Example: 1931,He parked the train in the garage,trains are usually boxy and cars are bubbly,a train is longer than a garage,There is no garage on the train,B    Prediction:C
+Example: 1566,Trees can not live on the ground,Trees need water to live,some kinds of trees can also live in the water,Human also need water and salt to live,B    Prediction:A
+Example: 663,The lion used the liter box,A lion is normally found in the wild,A lion is bigger than a liter box,A domestic cat are tame and use litter boxes,C    Prediction:B
+Example: 1347,The TV show started at 10 and finished at 9,9 and 10 are numbers,A TV show has a starting and a finishing time,A TV show can't be finished before it starts,C    Prediction:B
+Example: 1026,he put a scarf around his ear,a scarf cannot fit inside an ear,a scarf always make you warm,the scarf is too long for the ear,C    Prediction:A
+Example: 1335,The bed is in the dog.,dog beds are usually bigger than dogs,A dog can not eat his bed.,A dog bed is not pleasant to eat.,B    Prediction:A

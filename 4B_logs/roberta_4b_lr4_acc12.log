@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./examples/run_semeval_task4b.py", line 44, in <module>
+    from transformers import (WEIGHTS_NAME, BertConfig,
+ImportError: cannot import name 'AlbertForMultipleChoice' from 'transformers' (/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/__init__.py)

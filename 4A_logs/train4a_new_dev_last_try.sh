@@ -1,0 +1,17 @@
+python ./examples/run_semeval.py \
+--model_type albert \
+--task_name task4a \
+--model_name_or_path albert-xxlarge-v2 \
+--do_eval \
+--do_lower_case \
+--data_dir /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/new \
+--learning_rate 2e-5 \
+--num_train_epochs 2 \
+--max_seq_length 210 \
+--output_dir models_bert/albert_4a_new_dev_last_try \
+--per_gpu_eval_batch_size=3 \
+--per_gpu_train_batch_size=3 \
+--gradient_accumulation_steps 16 \
+--seed 5431 \
+--overwrite_output \
+--eval_all_checkpoints --do_train 

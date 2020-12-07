@@ -1,0 +1,7 @@
+models_bert/albert_4a_new_dev_nonaug/checkpoint-300/eval_results.txt acc = 0.9638916750250752
+models_bert/albert_4a_new_dev_nonaug/checkpoint-400/eval_results.txt acc = 0.9608826479438315
+models_bert/albert_4a_new_dev_aug2/checkpoint-400/eval_results.txt acc = 0.9608826479438315
+models_bert/albert_4a_new_dev_aug2/checkpoint-850/eval_results.txt acc = 0.9598796389167502
+models_bert/albert_4a_new_dev_aug3/checkpoint-900/acc = 0.957
+models_bert/albert_4a_new_dev_aug4/checkpoint-400/eval_results.txt acc = 0.962
+models_bert/albert_4a_new_dev_aug4/checkpoint-1100/eval_results.txt acc = 0.959

@@ -1,0 +1,125 @@
+12/16/2019 20:03:03 - WARNING - __main__ -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, 16-bits training: False
+12/16/2019 20:03:03 - WARNING - root -   NUM LABELS: 3
+12/16/2019 20:03:03 - WARNING - root -   <class 'transformers.configuration_roberta.RobertaConfig'>
+12/16/2019 20:03:03 - INFO - transformers.configuration_utils -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-config.json from cache at /home/ijon/.cache/torch/transformers/c22e0b5bbb7c0cb93a87a2ae01263ae715b4c18d692b1740ce72cacaa99ad184.233bd69ec613d2ebcb1d55823dfc5b1e109157918e13bdbde6db7f694e1a0039
+12/16/2019 20:03:03 - INFO - transformers.configuration_utils -   Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": "task4b",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 3,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 1,
+  "use_bfloat16": false,
+  "vocab_size": 50265
+}
+
+12/16/2019 20:03:04 - INFO - transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-vocab.json from cache at /home/ijon/.cache/torch/transformers/1ae1f5b6e2b22b25ccc04c000bb79ca847aa226d0761536b011cf7e5868f0655.ef00af9e673c7160b4d41cfda1f48c5f4cba57d5142754525572a846a1ab1b9b
+12/16/2019 20:03:04 - INFO - transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-merges.txt from cache at /home/ijon/.cache/torch/transformers/f8f83199a6270d582d6245dc100e99c4155de81c9745c6248077018fe01abcfb.70bec105b4158ed9a1747fea67a43f5dee97855c64d62b6ec3742f4cfdb5feda
+12/16/2019 20:03:05 - INFO - transformers.modeling_utils -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-pytorch_model.bin from cache at /home/ijon/.cache/torch/transformers/195c00f28dc68ef13a307c6db84d566f801f03b2b6bcf8b29524f10f767fac2a.fc7abf72755ecc4a75d0d336a93c1c63358d2334f5998ed326f3b0da380bf536
+12/16/2019 20:03:41 - INFO - transformers.modeling_utils -   Weights of RobertaForMultipleChoice not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+12/16/2019 20:03:41 - INFO - transformers.modeling_utils -   Weights from pretrained model not used in RobertaForMultipleChoice: ['lm_head.bias', 'lm_head.dense.weight', 'lm_head.dense.bias', 'lm_head.layer_norm.weight', 'lm_head.layer_norm.bias', 'lm_head.weight']
+12/16/2019 20:03:45 - INFO - __main__ -   Training/evaluation parameters Namespace(adam_epsilon=1e-08, cache_dir='', config_name='', data_dir='/mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/', device=device(type='cuda'), do_eval=True, do_lower_case=False, do_test=False, do_train=True, eval_all_checkpoints=True, evaluate_during_training=False, fp16=False, fp16_opt_level='O1', gradient_accumulation_steps=4, learning_rate=2e-06, local_rank=-1, logging_steps=50, max_grad_norm=1.0, max_seq_length=80, max_steps=-1, model_name_or_path='roberta-large', model_type='roberta', n_gpu=1, no_cuda=False, num_train_epochs=25.0, output_dir='models_roberta-large_task4b/roberta-large', overwrite_cache=False, overwrite_output_dir=True, per_gpu_eval_batch_size=16, per_gpu_train_batch_size=18, save_steps=50, seed=42, server_ip='', server_port='', task_name='task4b', tokenizer_name='', warmup_steps=0, weight_decay=0.0)
+12/16/2019 20:03:45 - INFO - __main__ -   Creating features from dataset file at /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   LOOKING AT /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/ train
+12/16/2019 20:03:45 - INFO - __main__ -   Training number: 9002
+convert examples to features: 0it [00:00, ?it/s]12/16/2019 20:03:45 - INFO - utils_multiple_choice -   Writing example 0 of 9002
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   *** Example ***
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   race_id: 998
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   choice: 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   input_ids: 0 250 31599 25278 531 5585 20406 2 2 250 10080 10734 2403 64 50 1395 33 20406 6 24 16 45 15 5 10324 242 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   label: 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   choice: 1
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   input_ids: 0 250 31599 25278 531 5585 20406 2 2 970 32 31599 7150 268 19 449 36862 61 16 156 9 20406 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   label: 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   choice: 2
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   input_ids: 0 250 31599 25278 531 5585 20406 2 2 250 31599 25278 8 10 20406 5585 14439 16499 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   label: 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   *** Example ***
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   race_id: 999
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   choice: 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   input_ids: 0 133 3778 782 3980 7 1733 4 2 2 1106 3980 1733 98 531 5 3778 4 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   label: 1
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   choice: 1
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   input_ids: 0 133 3778 782 3980 7 1733 4 2 2 133 3778 630 75 240 3980 4 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   label: 1
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   choice: 2
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   input_ids: 0 133 3778 782 3980 7 1733 4 2 2 133 3778 16 2671 87 3980 4 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/16/2019 20:03:45 - INFO - utils_multiple_choice -   label: 1
+convert examples to features: 91it [00:00, 905.24it/s]convert examples to features: 192it [00:00, 932.37it/s]convert examples to features: 296it [00:00, 961.97it/s]convert examples to features: 405it [00:00, 995.60it/s]convert examples to features: 516it [00:00, 1025.16it/s]convert examples to features: 626it [00:00, 1045.20it/s]convert examples to features: 735it [00:00, 1056.93it/s]convert examples to features: 849it [00:00, 1078.09it/s]convert examples to features: 957it [00:00, 1076.35it/s]convert examples to features: 1071it [00:01, 1094.35it/s]convert examples to features: 1184it [00:01, 1104.45it/s]convert examples to features: 1301it [00:01, 1122.00it/s]convert examples to features: 1418it [00:01, 1134.57it/s]convert examples to features: 1534it [00:01, 1141.23it/s]convert examples to features: 1654it [00:01, 1155.86it/s]convert examples to features: 1771it [00:01, 1159.41it/s]convert examples to features: 1893it [00:01, 1174.72it/s]convert examples to features: 2014it [00:01, 1184.68it/s]convert examples to features: 2133it [00:01, 1171.76it/s]convert examples to features: 2253it [00:02, 1180.00it/s]convert examples to features: 2377it [00:02, 1196.60it/s]convert examples to features: 2497it [00:02, 1193.05it/s]convert examples to features: 2617it [00:02, 1174.31it/s]convert examples to features: 2766it [00:02, 1253.99it/s]convert examples to features: 2925it [00:02, 1336.53it/s]convert examples to features: 3062it [00:02, 1334.74it/s]convert examples to features: 3198it [00:02, 1284.24it/s]convert examples to features: 3329it [00:02, 1263.49it/s]convert examples to features: 3457it [00:02, 1257.05it/s]convert examples to features: 3584it [00:03, 1242.73it/s]convert examples to features: 3709it [00:03, 1048.36it/s]convert examples to features: 3820it [00:03, 1058.56it/s]convert examples to features: 3943it [00:03, 1103.75it/s]convert examples to features: 4063it [00:03, 1130.33it/s]convert examples to features: 4183it [00:03, 1150.31it/s]convert examples to features: 4303it [00:03, 1162.75it/s]convert examples to features: 4429it [00:03, 1189.99it/s]convert examples to features: 4550it [00:03, 1194.01it/s]convert examples to features: 4671it [00:04, 1187.15it/s]convert examples to features: 4791it [00:04, 1180.84it/s]convert examples to features: 4919it [00:04, 1205.67it/s]convert examples to features: 5040it [00:04, 1195.05it/s]convert examples to features: 5170it [00:04, 1222.42it/s]convert examples to features: 5304it [00:04, 1255.42it/s]convert examples to features: 5437it [00:04, 1276.79it/s]convert examples to features: 5566it [00:04, 1240.54it/s]convert examples to features: 5701it [00:04, 1269.32it/s]convert examples to features: 5839it [00:04, 1298.63it/s]convert examples to features: 5970it [00:05, 1287.67it/s]convert examples to features: 6100it [00:05, 1271.84it/s]convert examples to features: 6234it [00:05, 1291.41it/s]convert examples to features: 6389it [00:05, 1358.18it/s]convert examples to features: 6526it [00:05, 1361.41it/s]convert examples to features: 6677it [00:05, 1400.97it/s]convert examples to features: 6818it [00:05, 1371.34it/s]convert examples to features: 6956it [00:05, 1318.50it/s]convert examples to features: 7113it [00:05, 1384.98it/s]convert examples to features: 7254it [00:05, 1390.59it/s]convert examples to features: 7395it [00:06, 1327.06it/s]convert examples to features: 7530it [00:06, 1288.43it/s]convert examples to features: 7661it [00:06, 1259.53it/s]convert examples to features: 7788it [00:06, 1231.71it/s]convert examples to features: 7913it [00:06, 1236.83it/s]convert examples to features: 8038it [00:06, 1214.94it/s]convert examples to features: 8160it [00:06, 1207.84it/s]convert examples to features: 8282it [00:06, 1195.41it/s]convert examples to features: 8406it [00:06, 1208.22it/s]convert examples to features: 8531it [00:07, 1220.07it/s]convert examples to features: 8654it [00:07, 1216.91it/s]convert examples to features: 8777it [00:07, 1219.58it/s]convert examples to features: 8900it [00:07, 1222.17it/s]convert examples to features: 9002it [00:07, 1212.27it/s]
+12/16/2019 20:03:52 - INFO - __main__ -   Saving features into cached file /mnt/minerva1/nlp/projects/counterfactual/semeval/4/data/cached_train_roberta-large_80_task4b
+12/16/2019 20:03:56 - WARNING - root -   All label ids:
+12/16/2019 20:03:56 - WARNING - root -   tensor([0, 1, 0,  ..., 0, 2, 2])
+12/16/2019 20:03:56 - INFO - __main__ -   ***** Running training *****
+12/16/2019 20:03:56 - INFO - __main__ -     Num examples = 9002
+12/16/2019 20:03:56 - INFO - __main__ -     Num Epochs = 25
+12/16/2019 20:03:56 - INFO - __main__ -     Instantaneous batch size per GPU = 18
+12/16/2019 20:03:56 - INFO - __main__ -     Total train batch size (w. parallel, distributed & accumulation) = 72
+12/16/2019 20:03:56 - INFO - __main__ -     Gradient Accumulation steps = 4
+12/16/2019 20:03:56 - INFO - __main__ -     Total optimization steps = 3125
+Iteration:   0%|          | 0/501 [00:00<?, ?it/s]
+Epoch:   0%|          | 0/25 [00:00<?, ?it/s][A
+
+Iteration:   0%|          | 0/501 [00:00<?, ?it/s][A[A
+
+                                                  [A[A
+                                             [AIteration:   0%|          | 0/501 [00:00<?, ?it/s]
+['A', 'B', 'C']
+Traceback (most recent call last):
+  File "./examples/run_semeval_task4b.py", line 597, in <module>
+    main()
+  File "./examples/run_semeval_task4b.py", line 528, in main
+    global_step, tr_loss, best_steps = train(args, train_dataset, model, tokenizer)
+  File "./examples/run_semeval_task4b.py", line 163, in train
+    outputs = model(**inputs)
+  File "/home/ijon/.local/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_roberta.py", line 447, in forward
+    attention_mask=flat_attention_mask, head_mask=head_mask)
+  File "/home/ijon/.local/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_bert.py", line 731, in forward
+    encoder_attention_mask=encoder_extended_attention_mask)
+  File "/home/ijon/.local/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_bert.py", line 380, in forward
+    layer_outputs = layer_module(hidden_states, attention_mask, head_mask[i], encoder_hidden_states, encoder_attention_mask)
+  File "/home/ijon/.local/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_bert.py", line 351, in forward
+    self_attention_outputs = self.attention(hidden_states, attention_mask, head_mask)
+  File "/home/ijon/.local/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_bert.py", line 305, in forward
+    self_outputs = self.self(hidden_states, attention_mask, head_mask, encoder_hidden_states, encoder_attention_mask)
+  File "/home/ijon/.local/lib/python3.6/site-packages/torch/nn/modules/module.py", line 547, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/mnt/minerva1/nlp/projects/counterfactual/semeval/5/transformers/transformers/modeling_bert.py", line 234, in forward
+    attention_scores = attention_scores / math.sqrt(self.attention_head_size)
+RuntimeError: CUDA out of memory. Tried to allocate 22.00 MiB (GPU 0; 10.76 GiB total capacity; 9.62 GiB already allocated; 6.25 MiB free; 203.50 MiB cached)
+Iteration:   0%|          | 0/501 [00:00<?, ?it/s]
+Epoch:   0%|          | 0/25 [00:00<?, ?it/s]
